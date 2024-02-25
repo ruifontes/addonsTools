@@ -1,0 +1,1251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'addonPackager' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'addonPackager' '1.0.3'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2024-02-25 15:29+0000\n"
+"PO-Revision-Date: 2024-02-25 15:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Translators: Message asking user to remove an old add-on.
+#: addon\installTasks.py:19
+msgid ""
+"You have installed a version of the {} add-on.\n"
+"As its functionalities are replaced by this add-on and by add-ons store, we "
+"strongly recommend you to remove or, at least, disable it!"
+msgstr ""
+
+#. Translators: Label of a message asking user to remove an old add-on.
+#: addon\installTasks.py:21
+msgid "Warning!"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:42
+msgid "&Add-ons tools"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:59
+msgid "An action is pending a NVDA restart."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:60
+msgid "By security reasons, the add-on only can be used after restarting NVDA"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:61
+msgid "Do you want to restart NVDA now?"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:62
+msgid "Question"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:74
+msgid "Shows Add-ons tools main window"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:75
+#: addon\globalPlugins\addonsTools\__init__.py:95
+#: addon\globalPlugins\addonsTools\main.py:32
+msgid "Add-ons tools"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:85
+#: addon\globalPlugins\addonsTools\__init__.py:87
+msgid "Already exist an instance of Add-ons Tools open."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:85
+#: addon\globalPlugins\addonsTools\main.py:285
+msgid "Information"
+msgstr "Information"
+
+#: addon\globalPlugins\addonsTools\__init__.py:94
+msgid "Close NVDA when it gets blocked"
+msgstr ""
+
+#. Translators: StaticText with instructions for the user:
+#: addon\globalPlugins\addonsTools\main.py:47
+msgid "Choose an tool and press Tab to access the options."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:54
+msgid "Add-ons packager"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:58
+#: addon\globalPlugins\addonsTools\main.py:81
+#: addon\globalPlugins\addonsTools\main.py:121
+msgid "&Add-ons list:"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:67
+#: addon\globalPlugins\addonsTools\main.py:90
+msgid "&Selection"
+msgstr "&Auswahl"
+
+#: addon\globalPlugins\addonsTools\main.py:70
+msgid "&Generate"
+msgstr "&Erzeugen"
+
+#: addon\globalPlugins\addonsTools\main.py:74
+msgid "Multiple installer"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:78
+msgid "&Select a folder with add-ons to install..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:93
+msgid "&Install"
+msgstr "&Installieren"
+
+#: addon\globalPlugins\addonsTools\main.py:97
+msgid "Make/restore Backups"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:101
+#, fuzzy
+#| msgid "&Lista de complementos:"
+msgid "&Backup elements:"
+msgstr "liste der Ergänzungen:"
+
+#: addon\globalPlugins\addonsTools\main.py:110
+msgid "&Create a backup"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:113
+msgid "&Restore backup"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:117
+msgid "Add-ons documentation"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:127
+msgid "&Open add-on documentation"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:133
+msgid "&Status:"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:145
+msgid "&Accept"
+msgstr "&OK"
+
+#: addon\globalPlugins\addonsTools\main.py:148
+msgid "&Cancel"
+msgstr "&Abbrechen"
+
+#: addon\globalPlugins\addonsTools\main.py:151
+msgid "Close"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:195
+#: addon\globalPlugins\addonsTools\main.py:397
+#: addon\globalPlugins\addonsTools\main.py:440
+#: addon\globalPlugins\addonsTools\main.py:592
+msgid "Dictionaries folder"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:199
+#: addon\globalPlugins\addonsTools\main.py:401
+#: addon\globalPlugins\addonsTools\main.py:444
+#: addon\globalPlugins\addonsTools\main.py:594
+msgid "Profiles folder"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:203
+#: addon\globalPlugins\addonsTools\main.py:405
+#: addon\globalPlugins\addonsTools\main.py:448
+#: addon\globalPlugins\addonsTools\main.py:596
+msgid "Scratchpad folder"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:206
+#: addon\globalPlugins\addonsTools\main.py:408
+#: addon\globalPlugins\addonsTools\main.py:451
+#: addon\globalPlugins\addonsTools\main.py:598
+msgid "Profiles triggers file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:209
+#: addon\globalPlugins\addonsTools\main.py:411
+#: addon\globalPlugins\addonsTools\main.py:454
+#: addon\globalPlugins\addonsTools\main.py:600
+msgid "Gestures file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:212
+#: addon\globalPlugins\addonsTools\main.py:414
+#: addon\globalPlugins\addonsTools\main.py:457
+#: addon\globalPlugins\addonsTools\main.py:602
+msgid "NVDA configurations file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:255
+#: addon\globalPlugins\addonsTools\main.py:300
+msgid "&Select all"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:256
+#: addon\globalPlugins\addonsTools\main.py:301
+msgid "&Unselect all"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:262
+#: addon\globalPlugins\addonsTools\main.py:307
+msgid "You need to select at least one add-on to continue."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:262
+#: addon\globalPlugins\addonsTools\main.py:307
+#: addon\globalPlugins\addonsTools\main.py:322
+#: addon\globalPlugins\addonsTools\main.py:609
+msgid "Error"
+msgstr "Fehler"
+
+#. Button select folder with add-ons to install.
+#: addon\globalPlugins\addonsTools\main.py:265
+#: addon\globalPlugins\addonsTools\main.py:279
+msgid "Select a folder:"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:285
+msgid "No add-ons found on selected folder."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:322
+#: addon\globalPlugins\addonsTools\main.py:609
+msgid ""
+"You need to select at least one backup element from the list to continue."
+msgstr ""
+
+#. Button restore backup
+#: addon\globalPlugins\addonsTools\main.py:328
+#: addon\globalPlugins\addonsTools\main.py:344
+msgid "NVDA backup file (*.nvda-backup)|*.nvda-backup"
+msgstr "NVDA-Sicherungsdatei (*.nvda-backup)|*.nvda-backup"
+
+#: addon\globalPlugins\addonsTools\main.py:329
+msgid "Save backup in..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:345
+msgid "Select a NVDA backup file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:418
+#: addon\globalPlugins\addonsTools\main.py:462
+#: addon\globalPlugins\addonsTools\main.py:471
+#: addon\globalPlugins\addonsTools\main.py:512
+#: addon\globalPlugins\addonsTools\main.py:527
+#: addon\globalPlugins\addonsTools\utilities.py:475
+#: addon\globalPlugins\addonsTools\utilities.py:485
+#: addon\globalPlugins\addonsTools\utilities.py:500
+msgid "restart"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:553
+msgid "Restore NVDA backup"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:559
+msgid "Backup &content:"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:568
+msgid "&Restore"
+msgstr "&Wiederherstellen"
+
+#: addon\globalPlugins\addonsTools\main.py:571
+msgid "&Close"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:168
+#, fuzzy
+#| msgid "Creando el complemento: {} {}"
+msgid "Creating the add-on: {} {}"
+msgstr "Erstellen des Komplements: {} {}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:172
+msgid "All add-ons were generated correctly."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:173
+#: addon\globalPlugins\addonsTools\utilities.py:232
+#: addon\globalPlugins\addonsTools\utilities.py:237
+#: addon\globalPlugins\addonsTools\utilities.py:330
+#: addon\globalPlugins\addonsTools\utilities.py:341
+#: addon\globalPlugins\addonsTools\utilities.py:347
+msgid "Press 'Accept' to continue."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:177
+msgid "Occurred an unexpected error."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:178
+msgid "Error: {}"
+msgstr "Fehler: {}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:179
+msgid "Please try again."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:220
+msgid "Searching add-ons in {}..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:224
+msgid "No compatible add-ons on directory."
+msgstr "Es gibt keine kompatiblen Add-ons im Verzeichnis."
+
+#: addon\globalPlugins\addonsTools\utilities.py:228
+#: addon\globalPlugins\addonsTools\utilities.py:236
+msgid "Add-on information extraction completed successfully."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:229
+msgid "However, the folder contains incompatible add-ons."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:230
+msgid ""
+"* Add-ons with errors in manifest: {}'\n"
+"'{}"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:231
+msgid ""
+"* Add-ons not compatible with current API: {}.'\n"
+"'{}"
+msgstr ""
+
+#. Dictionary
+#: addon\globalPlugins\addonsTools\utilities.py:260
+msgid "Adding dictionaries folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:266
+msgid "Was not possible to add dictionaries folder to the backup file."
+msgstr ""
+
+#. Profiles
+#: addon\globalPlugins\addonsTools\utilities.py:268
+msgid "Adding profiles folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:274
+msgid "Was not possible to add profiles folder to the backup file."
+msgstr ""
+
+#. Scratchpad
+#: addon\globalPlugins\addonsTools\utilities.py:276
+msgid "Adding Scratchpad folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:282
+msgid "Was not possible to add Scratchpad folder to the backup file."
+msgstr ""
+
+#. Profiles triggers file
+#: addon\globalPlugins\addonsTools\utilities.py:285
+msgid "Adding profiles triggers file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:292
+#: addon\globalPlugins\addonsTools\utilities.py:294
+msgid "Was not possible to add profiles triggers file to the backup file."
+msgstr ""
+
+#. File gestures.ini
+#: addon\globalPlugins\addonsTools\utilities.py:296
+msgid "Adding gestures file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:303
+#: addon\globalPlugins\addonsTools\utilities.py:305
+msgid "Was not possible to add gestures file to the backup file.."
+msgstr ""
+
+#. NVDA configuration file
+#: addon\globalPlugins\addonsTools\utilities.py:307
+msgid "Adding NVDA configuration file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:314
+#: addon\globalPlugins\addonsTools\utilities.py:316
+msgid "Was not possible to add NVDA configuration file to the backup file.."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:329
+msgid ""
+"Correctly created backup file at:\n"
+"{}"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:339
+#: addon\globalPlugins\addonsTools\utilities.py:480
+#: addon\globalPlugins\addonsTools\utilities.py:488
+msgid ""
+"The following error have Occurred:\n"
+"{}"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:340
+#: addon\globalPlugins\addonsTools\utilities.py:346
+msgid "Was not possible to create the backup file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:345
+#: addon\globalPlugins\addonsTools\utilities.py:495
+#: addon\globalPlugins\addonsTools\utilities.py:503
+msgid ""
+"The following errors have Occurred:\n"
+"{}"
+msgstr ""
+
+#. Dictionary
+#: addon\globalPlugins\addonsTools\utilities.py:368
+msgid "Restoring dictionary folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:377
+#: addon\globalPlugins\addonsTools\utilities.py:379
+msgid "Was not possible to restore the dictionaries folder."
+msgstr ""
+
+#. Profiles
+#: addon\globalPlugins\addonsTools\utilities.py:381
+msgid "Restoring profiles folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:390
+#: addon\globalPlugins\addonsTools\utilities.py:392
+msgid "Was not possible to restore the profiles folder."
+msgstr ""
+
+#. Scratchpad
+#: addon\globalPlugins\addonsTools\utilities.py:394
+#, fuzzy
+#| msgid "Directorio Scratchpad"
+msgid "Restoring Scratchpad folder..."
+msgstr "Scratchpad-Verzeichnis"
+
+#: addon\globalPlugins\addonsTools\utilities.py:403
+#: addon\globalPlugins\addonsTools\utilities.py:405
+msgid "Was not possible to restore the Scratchpad folder."
+msgstr ""
+
+#. profiles triggers file
+#: addon\globalPlugins\addonsTools\utilities.py:407
+msgid "Restoring profiles triggers file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:421
+#: addon\globalPlugins\addonsTools\utilities.py:423
+#: addon\globalPlugins\addonsTools\utilities.py:425
+msgid "Was not possible to restore the profiles triggers file."
+msgstr ""
+
+#. File gestures.ini
+#: addon\globalPlugins\addonsTools\utilities.py:427
+msgid "Restoring gestures file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:441
+#: addon\globalPlugins\addonsTools\utilities.py:443
+#: addon\globalPlugins\addonsTools\utilities.py:445
+msgid "Was not possible to restore the gestures file."
+msgstr ""
+
+#. NVDA configuration file
+#: addon\globalPlugins\addonsTools\utilities.py:447
+msgid "Restoring NVDA configuration file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:461
+#: addon\globalPlugins\addonsTools\utilities.py:463
+#: addon\globalPlugins\addonsTools\utilities.py:465
+msgid "Was not possible to restore the NVDA configuration file."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:472
+msgid "The restore process was completed successfully."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:473
+#: addon\globalPlugins\addonsTools\utilities.py:483
+#: addon\globalPlugins\addonsTools\utilities.py:498
+msgid "NVDA needs to restart to make changes available."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:474
+#: addon\globalPlugins\addonsTools\utilities.py:484
+#: addon\globalPlugins\addonsTools\utilities.py:499
+msgid "Press 'Accept' or 'Close' to restart."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:481
+#: addon\globalPlugins\addonsTools\utilities.py:496
+msgid "Was not possible to restore all the backup"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:482
+#: addon\globalPlugins\addonsTools\utilities.py:497
+msgid "However some elements were restored"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:489
+#: addon\globalPlugins\addonsTools\utilities.py:504
+msgid "Was not possible to restore NVDA"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:490
+#: addon\globalPlugins\addonsTools\utilities.py:505
+msgid "Press 'Accept' or 'Close' to continue."
+msgstr ""
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Tools for managing add-ons"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid ""
+"Set of tools to manage add-ons not available on NVDA add-ons store:\n"
+"\t* Add-on packager: To create a add-on backup file or to send a modified "
+"add-on to someone test or use;\n"
+"\t* Multiple installer: Allows to select add-ons from a folder and install "
+"all at once;\n"
+"\t* Make/restore Backups: Allow to backup and restore some NVDA preferences, "
+"such as configurations, profiles and dictionaries;\n"
+"\t* Add-ons documentation: allow to open the documentation file.\n"
+"\t"
+msgstr ""
+
+#~ msgid "Utilidades para los complementos de NVDA"
+#~ msgstr "Dienstprogramme für NVDA-Add-ons"
+
+#~ msgid ""
+#~ "Conjunto de utilidades para un manejo fácil de complementos para NVDA.\n"
+#~ "\n"
+#~ "* Empaquetador de complementos.\n"
+#~ "* Instalador múltiple de complementos.\n"
+#~ "* Desinstala complementos.\n"
+#~ "* Habilita / deshabilita complementos.\n"
+#~ "* Modificador de manifiestos, instalados y desde archivo no instalado.\n"
+#~ "* Hacer / restaurar copias de seguridad de la configuración de NVDA.\n"
+#~ "* Documentación de complementos.\n"
+#~ "\n"
+#~ "Todas las áreas de fácil manejo y para ahorrar tiempo respecto al gestor "
+#~ "de complementos nativo de NVDA."
+#~ msgstr ""
+#~ "Dienstprogramme für die einfache Verwaltung von NVDA-Add-ons.\n"
+#~ "\n"
+#~ "* Add-on-Paketierer.\n"
+#~ "* Installationsprogramm für mehrere Add-ons.\n"
+#~ "* Deinstallieren Sie Add-ons.\n"
+#~ "* Aktivieren/Deaktivieren von Add-ons.\n"
+#~ "* Manifest Modifier, installiert und aus nicht installierter Datei.\n"
+#~ "* Erstellen/Wiederherstellen von Sicherungskopien der NVDA-"
+#~ "Konfiguration.\n"
+#~ "* Dokumentation zum Zusatzmodul.\n"
+#~ "\n"
+#~ "Alle Bereiche sind benutzerfreundlich und zeitsparend im Vergleich zum "
+#~ "NVDA-eigenen Add-on-Manager."
+
+#~ msgid "&Utilidades para los complementos de NVDA"
+#~ msgstr "&Hilfsmittel für NVDA-Add-ons"
+
+#~ msgid ""
+#~ "Hay una acción pendiente de reiniciar NVDA.\n"
+#~ "\n"
+#~ "Por motivos de seguridad el complemento no podrá ser usado hasta que no "
+#~ "reinicie.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "NVDA muss neu gestartet werden.\n"
+#~ "\n"
+#~ "Das Addon kann aus Sicherheitsgründen erst nach einem Neustart verwendet "
+#~ "werden.\n"
+#~ "\n"
+#~ "möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid "Pregunta"
+#~ msgstr "Dialogfeld"
+
+#~ msgid "Muestra la ventana de Utilidades para los complementos de NVDA"
+#~ msgstr "Zeigt das Fenster Dienstprogramme für NVDA-Add-ons an"
+
+#~ msgid ""
+#~ "Ya hay una instancia de Utilidades para los complementos de NVDA abierta."
+#~ msgstr ""
+#~ "Es ist bereits eine Instanz von Utilities for NVDA add-ons geöffnet."
+
+#~ msgid "Empaquetador de complementos"
+#~ msgstr "Komplementärpacker"
+
+#~ msgid "Instalador múltiple"
+#~ msgstr "Multi-Installer"
+
+#~ msgid "&Seleccione un directorio con complementos a instalar..."
+#~ msgstr "&Wählen Sie ein Verzeichnis mit zu installierenden Plug-ins..."
+
+#~ msgid "Desinstala complementos"
+#~ msgstr "Add-ons deinstallieren"
+
+#~ msgid "&Desinstalar"
+#~ msgstr "&Deinstallieren"
+
+#~ msgid "Habilita / deshabilita complementos"
+#~ msgstr "Aktivieren/Deaktivieren von Erweiterungen"
+
+#~ msgid "&Lista de complementos habilitados:"
+#~ msgstr "liste der aktivierten Erweiterungen:"
+
+#~ msgid "&Lista de complementos deshabilitados:"
+#~ msgstr "liste der deaktivierten Erweiterungen:"
+
+#~ msgid "&Procesar"
+#~ msgstr "&Prozess"
+
+#~ msgid "Modificador de manifiestos"
+#~ msgstr "Manifest Editor"
+
+#~ msgid "&Lista de complementos instalados:"
+#~ msgstr "liste der installierten Erweiterungen:"
+
+#~ msgid "Seleccione versión Mayor:"
+#~ msgstr "Wählen Sie die Hauptversion:"
+
+#~ msgid "Seleccione versión Menor:"
+#~ msgstr "Wählen Sie Minor Version:"
+
+#~ msgid "Seleccione una revisión:"
+#~ msgstr "Wählen Sie eine Revision aus:"
+
+#~ msgid "Hacer / restaurar copias de seguridad"
+#~ msgstr "Erstellen/Wiederherstellen von Backups"
+
+#~ msgid "&Hacer copias de seguridad:"
+#~ msgstr "&Zurücksetzen:"
+
+#~ msgid "&Crear copia de seguridad"
+#~ msgstr "&Sicherung erstellen"
+
+#~ msgid "&Restaurar copia de seguridad"
+#~ msgstr "&Wiederherstellung der Sicherung"
+
+#~ msgid "Documentación de complementos"
+#~ msgstr "Dokumentation der Erweiterung"
+
+#~ msgid "&Abrir documentación del complemento"
+#~ msgstr "&Zusätzliche Dokumentation öffnen"
+
+#~ msgid "&Estado:"
+#~ msgstr "&Zustand:"
+
+#~ msgid "Cerrar"
+#~ msgstr "Schließen"
+
+#~ msgid "Directorio Diccionarios"
+#~ msgstr "Verzeichnis Wörterbücher"
+
+#~ msgid "Directorio Perfiles"
+#~ msgstr "Verzeichnis-Profile"
+
+#~ msgid "Fichero configuración disparadores de perfiles"
+#~ msgstr "Konfigurationsdatei für Profilauslöser"
+
+#~ msgid "Fichero de configuración gestos de entrada"
+#~ msgstr "Gestenkonfigurationsdatei eingeben"
+
+#~ msgid "Fichero de configuración de NVDA"
+#~ msgstr "NVDA-Konfigurationsdatei"
+
+#~ msgid "&Seleccionar todo"
+#~ msgstr "&Alles auswählen"
+
+#~ msgid "&Deseleccionar todo"
+#~ msgstr "Alle abwählen"
+
+#~ msgid "Tiene que seleccionar un complemento para continuar."
+#~ msgstr "Sie müssen eine Erweiterung auswählen, um fortzufahren."
+
+#~ msgid "Seleccione un directorio:"
+#~ msgstr "Wählen Sie ein Verzeichnis:"
+
+#~ msgid "No se encontraron complementos en el directorio que selecciono."
+#~ msgstr ""
+#~ "In dem von ihnen gewählten Verzeichnis wurden keine Erweiterungen "
+#~ "gefunden."
+
+#~ msgid "Necesita elegir al menos un complemento para continuar."
+#~ msgstr "Sie müssen mindestens eine Erweiterung auswählen, um fortzufahren."
+
+#~ msgid "Complementos &habilitados"
+#~ msgstr "Erweiterungen & aktiviert"
+
+#~ msgid "Complementos &deshabilitados"
+#~ msgstr "Erweiterungen & Deaktiviert"
+
+#~ msgid "Procesar &instalados"
+#~ msgstr "Prozess &Installation"
+
+#~ msgid "Procesar un archivo de &complemento"
+#~ msgstr "Bearbeitung einer Erweiterungsdatei"
+
+#~ msgid ""
+#~ "Necesita elegir al menos un elemento de copia de seguridad de la lista "
+#~ "para continuar."
+#~ msgstr ""
+#~ "Sie müssen mindestens einen Sicherungsartikel aus der Liste auswählen, um "
+#~ "fortzufahren."
+
+#~ msgid "Guardar la copia de seguridad en..."
+#~ msgstr "Speichern Sie die Sicherungskopie in..."
+
+#~ msgid "Seleccione un archivo de copia de seguridad de NVDA"
+#~ msgstr "Wählen Sie eine NVDA-Sicherungsdatei"
+
+#~ msgid "Complemento de NVDA (*.nvda-addon)|*.nvda-addon"
+#~ msgstr "NVDA-Erweiterung (*.nvda-Addon)|*.nvda-Addon"
+
+#~ msgid "Seleccione un complemento de NVDA"
+#~ msgstr "Wählen Sie eine NVDA Erweiterung"
+
+#~ msgid "Restaurar copia de seguridad de NVDA"
+#~ msgstr "NVDA-Sicherung wiederherstellen"
+
+#~ msgid "&Contenido de la copia de seguridad:"
+#~ msgstr "&Inhalt des Backups:"
+
+#~ msgid "&Cerrar"
+#~ msgstr "&Schließen"
+
+#~ msgid ""
+#~ "Se generaron correctamente todos los complementos.\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Alle Erweiterungspakete wurden korrekt erstellt.\n"
+#~ "\n"
+#~ "Klicken Sie auf OK, um fortzufahren."
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "Vuelva a intentarlo."
+#~ msgstr ""
+#~ "Es ist ein unerwarteter Fehler aufgetreten\n"
+#~ "\n"
+#~ "Fehler: {}\n"
+#~ "\n"
+#~ "Bitte versuchen Sie es erneut."
+
+#~ msgid "Instalando el complemento: {}"
+#~ msgstr "Installation der Erweiterung: {}"
+
+#~ msgid ""
+#~ "Se completo la instalación correctamente.\n"
+#~ "\n"
+#~ "NVDA necesita reiniciarse para aplicar las instalaciones.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Die Installation wurde erfolgreich abgeschlossen.\n"
+#~ "\n"
+#~ "NVDA muss neu gestartet werden, um die  Änderungen zu übernehmen.\n"
+#~ "\n"
+#~ "möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid ""
+#~ "No se pudo instalar el complemento.\n"
+#~ "\n"
+#~ "Fallo de compatibilidad.\n"
+#~ "\n"
+#~ "Busque un complemento compatible."
+#~ msgstr ""
+#~ "Das Add-on konnte nicht installiert werden.\n"
+#~ "\n"
+#~ "Leider sind Kompatibilitätsprobleme aufgetreten.\n"
+#~ "\n"
+#~ "Suchen Sie nach einem kompatiblen Add-on."
+
+#~ msgid ""
+#~ "Se completo la instalación correctamente.\n"
+#~ "\n"
+#~ "Pero hay complementos que no se pudieron instalar.\n"
+#~ "\n"
+#~ "Los siguientes complementos son incompatibles, busque una versión "
+#~ "compatible:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "NVDA necesita reiniciarse para aplicar las instalaciones.\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Installation erfolgreich abgeschlossen.\n"
+#~ "\n"
+#~ "Es gibt jedoch Erweiterungen, die nicht installiert werden konnten.\n"
+#~ "\n"
+#~ "Die folgenden Erweiterungen sind nicht kompatibel, bitte suchen Sie nach "
+#~ "einer kompatiblen Version:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "NVDA muss neu gestartet werden, um die Installationen abzuschließen.\n"
+#~ "Möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "No obstante hubo complementos que se instalaron y NVDA necesita reiniciar "
+#~ "para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Es ist ein unerwarteter Fehler aufgetreten\n"
+#~ "\n"
+#~ "Fehler: {}\n"
+#~ "\n"
+#~ "Es wurden jedoch Add-ons installiert und NVDA muss neu gestartet werden, "
+#~ "um die Änderungen zu übernehmen.\n"
+#~ "\n"
+#~ "möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid "Desinstalando el complemento: {}"
+#~ msgstr "Deinstallation der Erweiterungen: {}"
+
+#~ msgid ""
+#~ "Se completo la desinstalación correctamente.\n"
+#~ "\n"
+#~ "NVDA necesita reiniciarse para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Die Deinstallation wurde erfolgreich abgeschlossen.\n"
+#~ "\n"
+#~ "NVDA muss neu gestartet werden, um die Änderungen zu übernehmen.\n"
+#~ "\n"
+#~ "möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "No obstante hubo complementos que se desinstalaron y NVDA necesita "
+#~ "reiniciar para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Es ist ein unerwarteter Fehler aufgetreten\n"
+#~ "\n"
+#~ "Fehler: {}\n"
+#~ "\n"
+#~ "Allerdings wurden einige Add-ons deinstalliert und NVDA muss neu "
+#~ "gestartet werden, um die Änderungen zu übernehmen.\n"
+#~ "\n"
+#~ "möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid "Buscando complementos en {}..."
+#~ msgstr "Suche nach Ergänzungen zu {}..."
+
+#~ msgid ""
+#~ "Se completo con éxito la extracción de información de los complementos.\n"
+#~ "\n"
+#~ "No obstante, el directorio que introdujo contiene complementos no "
+#~ "compatibles.\n"
+#~ "\n"
+#~ "* Complementos con fallo en el manifiesto: {}.\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "* Complementos no compatibles con la api actual: {}.\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Die Extraktion von Informationen aus den Add-ons wurde erfolgreich "
+#~ "abgeschlossen.\n"
+#~ "\n"
+#~ "Das von Ihnen angegebene Verzeichnis enthält jedoch nicht unterstützte "
+#~ "Erweiterungen.\n"
+#~ "\n"
+#~ "* Erweiterungen mit Manifestfehler: {}.\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "* Erweiterungen nicht kompatibel mit aktueller API: {}.\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Klicken Sie auf Akzeptieren, um fortzufahren."
+
+#~ msgid ""
+#~ "Se completo con éxito la extracción de información de los complementos.\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Die Extraktion von Informationen aus den Erweiterungen wurde erfolgreich "
+#~ "abgeschlossen.\n"
+#~ "\n"
+#~ "Klicken Sie auf OK, um fortzufahren."
+
+#~ msgid "Deshabilitando complementos..."
+#~ msgstr "Deaktivieren von Erweiterungen..."
+
+#~ msgid "Habilitando complementos..."
+#~ msgstr "Aktivieren von Erweiterungen..."
+
+#~ msgid ""
+#~ "Se completo el proceso de habilitar y deshabilitar correctamente.\n"
+#~ "\n"
+#~ "NVDA necesita reiniciarse para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Der Prozess der Aktivierung und Deaktivierung wurde erfolgreich "
+#~ "abgeschlossen.\n"
+#~ "\n"
+#~ "NVDA muss neu gestartet werden, um die Änderungen zu übernehmen.\n"
+#~ "\n"
+#~ "möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "No obstante hubo complementos que se habilitaron o deshabilitaron y NVDA "
+#~ "necesita reiniciar para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Es ist ein unerwarteter Fehler aufgetreten\n"
+#~ "\n"
+#~ "Fehler: {}\n"
+#~ "\n"
+#~ "Trotzdem wurden einige Erweiterungen aktiviert oder deaktiviert und NVDA "
+#~ "muss neu gestartet werden, um die Änderungen zu übernehmen.\n"
+#~ "\n"
+#~ "möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid "Cambiando el manifiesto al complemento: {}"
+#~ msgstr "Ändern des Manifests in das Komplement: {}"
+
+#~ msgid ""
+#~ "Se cambiaron los manifiestos correctamente.\n"
+#~ "\n"
+#~ "Para que la acción tenga efecto NVDA tiene que reiniciarse.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Die Manifest-Dateien wurden korrekt geändert.\n"
+#~ "\n"
+#~ "Damit die Änderungen wirksam werden, muss NVDA neu gestartet werden.\n"
+#~ "\n"
+#~ "möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "No obstante hubo complementos que se les cambio el manifiesto y NVDA "
+#~ "necesita reiniciar para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Es ist ein unerwarteter Fehler aufgetreten\n"
+#~ "\n"
+#~ "Fehler: {}\n"
+#~ "\n"
+#~ "Jedoch wurden einige Manifest-Dateien geändert, und NVDA muss neu "
+#~ "gestartet werden, um die Änderungen zu übernehmen.\n"
+#~ "\n"
+#~ "möchten Sie NVDA jetzt neu starten?"
+
+#~ msgid "Trabajando en el complemento: {}"
+#~ msgstr "Arbeiten im Komplement: {}"
+
+#~ msgid ""
+#~ "Se cambio correctamente el manifiesto.\n"
+#~ "\n"
+#~ "Se genero un complemento con el manifiesto cambiado en:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Die Manifest-Datei wurde korrekt geändert.\n"
+#~ "\n"
+#~ "Es wurde eine Erweiterung mit der geänderten Manifest-Datei erstellt:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Klicken Sie auf OK, um fortzufahren."
+
+#~ msgid "Añadiendo el directorio de diccionarios..."
+#~ msgstr "Hinzufügen des Wörterbuchverzeichnisses..."
+
+#~ msgid ""
+#~ "No se pudo agregar el directorio de diccionarios a la copia de seguridad."
+#~ msgstr ""
+#~ "Das Wörterbuchverzeichnis konnte der Sicherung nicht hinzugefügt werden."
+
+#~ msgid "Añadiendo el directorio de Perfiles..."
+#~ msgstr "Hinzufügen des Verzeichnisses Profiles..."
+
+#~ msgid ""
+#~ "No se pudo agregar el directorio de Perfiles a la copia de seguridad."
+#~ msgstr ""
+#~ "Das Verzeichnis Profiles konnte der Sicherung nicht hinzugefügt werden."
+
+#~ msgid "Añadiendo el directorio de Scratchpad..."
+#~ msgstr "Hinzufügen des Scratchpad-Verzeichnisses..."
+
+#~ msgid ""
+#~ "No se pudo agregar el directorio de Scratchpad a la copia de seguridad."
+#~ msgstr ""
+#~ "Das Scratchpad-Verzeichnis konnte dem Backup nicht hinzugefügt werden."
+
+#~ msgid "Añadiendo el Fichero configuración disparadores de perfiles..."
+#~ msgstr "Hinzufügen der Profilauslöser-Konfigurationsdatei..."
+
+#~ msgid ""
+#~ "No se pudo agregar el Fichero configuración disparadores de perfiles a la "
+#~ "copia de seguridad."
+#~ msgstr ""
+#~ "Die Profilauslöser-Konfigurationsdatei konnte dem Backup nicht "
+#~ "hinzugefügt werden."
+
+#~ msgid "Añadiendo el Fichero de configuración gestos de entrada..."
+#~ msgstr "Hinzufügen der Konfigurationsdatei für Eingabegesten..."
+
+#~ msgid ""
+#~ "No se pudo agregar el Fichero de configuración gestos de entrada a la "
+#~ "copia de seguridad."
+#~ msgstr ""
+#~ "Die Konfigurationsdatei für die Eingabegesten konnte nicht zum Backup "
+#~ "hinzugefügt werden."
+
+#~ msgid "Añadiendo el Fichero de configuración de NVDA..."
+#~ msgstr "Hinzufügen der NVDA-Konfigurationsdatei..."
+
+#~ msgid ""
+#~ "No se pudo agregar el Fichero de configuración de NVDA a la copia de "
+#~ "seguridad."
+#~ msgstr ""
+#~ "Die NVDA-Konfigurationsdatei konnte nicht zum Backup hinzugefügt werden."
+
+#~ msgid ""
+#~ "Se creo la copia de seguridad correctamente en:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Die Sicherung wurde erfolgreich in erstellt:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Drücken Sie auf Akzeptieren, um fortzufahren."
+
+#~ msgid ""
+#~ "Se produjo el siguiente error:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo crear la copia de seguridad."
+#~ msgstr ""
+#~ "Der folgende Fehler ist aufgetreten:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Die Sicherung konnte nicht erstellt werden."
+
+#~ msgid ""
+#~ "Se produjeron los siguientes errores:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo crear la copia de seguridad."
+#~ msgstr ""
+#~ "Die folgenden Fehler sind aufgetreten:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Die Sicherung konnte nicht erstellt werden."
+
+#~ msgid "Restaurando el directorio de diccionarios..."
+#~ msgstr "Wiederherstellung des Wörterbuchverzeichnisses..."
+
+#~ msgid "No se pudo restaurar el directorio de diccionarios."
+#~ msgstr "Das Wörterbuchverzeichnis konnte nicht wiederhergestellt werden."
+
+#~ msgid "Restaurando el directorio de Perfiles..."
+#~ msgstr "Wiederherstellung des Profiles-Verzeichnisses..."
+
+#~ msgid "No se pudo restaurar el directorio de Perfiles."
+#~ msgstr "Das Verzeichnis Profiles konnte nicht wiederhergestellt werden."
+
+#~ msgid "Restaurando el directorio de Scratchpad..."
+#~ msgstr "Wiederherstellung des Scratchpad-Verzeichnisses..."
+
+#~ msgid "No se pudo restaurar el directorio de Scratchpad."
+#~ msgstr "Das Scratchpad-Verzeichnis konnte nicht wiederhergestellt werden."
+
+#~ msgid "Restaurando el Fichero configuración disparadores de perfiles..."
+#~ msgstr "Wiederherstellung der Konfigurationsdatei für Profilauslöser..."
+
+#~ msgid ""
+#~ "No se pudo restaurar el Fichero configuración disparadores de perfiles."
+#~ msgstr ""
+#~ "Die Konfigurationsdatei der Profilauslöser konnte nicht wiederhergestellt "
+#~ "werden."
+
+#~ msgid "Restaurando el Fichero configuración gestos de entrada..."
+#~ msgstr "Wiederherstellen der Konfigurationsdatei für Eingabegesten..."
+
+#~ msgid "No se pudo restaurar el Fichero configuración de gestos de entrada."
+#~ msgstr ""
+#~ "Die Konfigurationsdatei für Eingabegesten konnte nicht wiederhergestellt "
+#~ "werden."
+
+#~ msgid "No se pudo restaurar el Fichero configuración gestos de entrada."
+#~ msgstr ""
+#~ "Die Konfigurationsdatei für Eingabegesten konnte nicht wiederhergestellt "
+#~ "werden."
+
+#~ msgid "Restaurando el Fichero configuración de NVDA..."
+#~ msgstr "Wiederherstellung der NVDA-Konfigurationsdatei..."
+
+#~ msgid "No se pudo restaurar el Fichero configuración de NVDA."
+#~ msgstr "Die NVDA-Konfigurationsdatei konnte nicht wiederhergestellt werden."
+
+#~ msgid ""
+#~ "La restauración fue un éxito.\n"
+#~ "\n"
+#~ "Al restaurar la configuración de NVDA es necesario reiniciar el lector.\n"
+#~ "\n"
+#~ "Pulse aceptar o cerrar para reiniciar."
+#~ msgstr ""
+#~ "Die Restaurierung war ein Erfolg.\n"
+#~ "\n"
+#~ "Die Wiederherstellung der NVDA-Konfiguration erfordert einen Neustart des "
+#~ "Lesegeräts.\n"
+#~ "\n"
+#~ "Drücken Sie Akzeptieren oder Schließen, um neu zu starten."
+
+#~ msgid ""
+#~ "Se produjo el siguiente error:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo restaurar toda la copia de seguridad.\n"
+#~ "\n"
+#~ "Pero hay elementos que si pudieron ser restaurados.\n"
+#~ "\n"
+#~ "Al restaurar la configuración de NVDA es necesario reiniciar el lector.\n"
+#~ "\n"
+#~ "Pulse cancelar o cerrar para reiniciar."
+#~ msgstr ""
+#~ "Der folgende Fehler ist aufgetreten:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Die gesamte Sicherung konnte nicht wiederhergestellt werden.\n"
+#~ "\n"
+#~ "Aber es gibt Dinge, die wiederhergestellt werden könnten.\n"
+#~ "\n"
+#~ "Die Wiederherstellung der NVDA-Konfiguration erfordert einen Neustart des "
+#~ "Lesegeräts.\n"
+#~ "\n"
+#~ "Drücken Sie Abbrechen oder Schließen, um neu zu starten."
+
+#~ msgid ""
+#~ "Se produjo el siguiente error:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo restaurar la copia de seguridad.\n"
+#~ "\n"
+#~ "Pulse cancelar o cerrar para continuar."
+#~ msgstr ""
+#~ "Der folgende Fehler ist aufgetreten:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Die Sicherung konnte nicht wiederhergestellt werden.\n"
+#~ "\n"
+#~ "Drücken Sie Abbrechen oder Schließen, um fortzufahren."
+
+#~ msgid ""
+#~ "Se produjeron los siguientes errores:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo restaurar toda la copia de seguridad.\n"
+#~ "\n"
+#~ "Pero hay elementos que si pudieron ser restaurados.\n"
+#~ "\n"
+#~ "Al restaurar la configuración de NVDA es necesario reiniciar el lector.\n"
+#~ "\n"
+#~ "Pulse cancelar o cerrar para reiniciar."
+#~ msgstr ""
+#~ "Die folgenden Fehler sind aufgetreten:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Die gesamte Sicherung konnte nicht wiederhergestellt werden.\n"
+#~ "\n"
+#~ "Aber es gibt Dinge, die wiederhergestellt werden könnten.\n"
+#~ "\n"
+#~ "Die Wiederherstellung der NVDA-Konfiguration erfordert einen Neustart des "
+#~ "Lesegeräts.\n"
+#~ "\n"
+#~ "Drücken Sie Abbrechen oder Schließen, um neu zu starten."
+
+#~ msgid ""
+#~ "Se produjeron los siguientes errores:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo restaurar la copia de seguridad.\n"
+#~ "\n"
+#~ "Pulse cancelar o cerrar para continuar."
+#~ msgstr ""
+#~ "Die folgenden Fehler sind aufgetreten:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Die Sicherung konnte nicht wiederhergestellt werden.\n"
+#~ "\n"
+#~ "Drücken Sie Abbrechen oder Schließen, um fortzufahren."

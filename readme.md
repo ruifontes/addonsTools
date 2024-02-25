@@ -1,135 +1,59 @@
-# NVDA Add-on Scons Template #
-
-This package contains a basic template structure for NVDA add-on development, building, distribution and localization.
-For details about NVDA add-on development, please see the [NVDA Add-on Development Guide](https://github.com/nvdaaddons/DevGuide/wiki/NVDA-Add-on-Development-Guide).
-The NVDA add-on development/discussion list [is here](https://nvda-addons.groups.io/g/nvda-addons)
-Information specific to NV Access add-on store [can be found here](https://github.com/nvaccess/addon-datastore).
-
-Copyright (C) 2012-2023 NVDA Add-on team contributors.
-
-This package is distributed under the terms of the GNU General Public License, version 2 or later. Please see the file COPYING.txt for further details.
+﻿# Tools for managing add-ons
 
 
+## Information
+* Authors: Rui Fontes <rui.fontes@tiflotecnia.com>, Angelo Abrantes <ampa4374@gmail.com> and Abel Passos Jr. <abel.passos@gmail.com>"
+* Updated in 22/02/2024
+* Download [stable version][1]
+* Compatibility: NVDA version 2021.1 and beyond
 
-[alekssamos](https://github.com/alekssamos/) added automatic package of add-ons through Github Actions.
 
-For details about Github Actions  please see the [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions).
+## General info
+This addon provides some tools to manage add-ons not present in the NVDA add-ons store.
+To access the features open the main dialog of the add-on, through the NVDA/Tools menu or a command previously defined in "Input gestures" dialog.
 
-Copyright (C) 2022 alekssamos
+In the main dialog you will find the list of tools:
+* Add-on packager: To create a add-on backup file or to send a modified add-on to someone test or use;
+* Multiple installer: Allows to select add-ons from a folder and install all at once;
+* Make/restore Backups: Allow to backup and restore some NVDA preferences, such as configurations, profiles and dictionaries;
+* Add-ons documentation: allow to open the documentation file.
+
+To access the features of a tool press "Tab".
+Follows a brief description of each tool.
 
 
-## Features
+### Add-on packager
+In this section you will find a checkable list of all add-ons installed.
+You can check the add-ons you want to package for backup or to send someone to test or use.
+After checking the add-ons you want, press "Tab". You will find a "Selection" button allowing to select or unselect all.
+When finished, press "Tab" to the "Generate" button and press "Enter".
+You will be prompted to choose the folder where you want the add-on to be saved.
+A dialog with the progress of the task is presented. When finished press "Accept" or "Close".
 
-This template provides the following features you can use during NVDA add-on development and packaging:
 
-* Automatic add-on package creation, with naming and version loaded from a centralized build variables file (buildVars.py) or command-line interface.
-	* See packaging section for details on using command-line switches when packaging add-ons with custom version information.
-	* This process will happen automatically when receiving a pull request, and there is also the possibility of manual launch.
-	* To let the workflow run automatically when pushing to main or master (development) branch, remove the comment for branches line in GitHub Actions (`.github/workflows/build_addon.yml`).
-	* If you have created a tag (E.G.: `git tag v1.0 && git push --tag`), then a release will be automatically created and the add-on file will be uploaded as an asset.
-	* Otherwise, with normal commits or with manual startup, you can download the artifacts from the Actions page of your repository.
-* Manifest file creation using a template (manifest.ini.tpl). Build variables are replaced on this template. See below for add-on manifest specification.
-* Compilation of gettext mo files before distribution, when needed.
-	* To generate a gettext pot file, please run `scons pot`. An `addon-name.pot` file will be created with all gettext messages for your add-on. You need to check the `buildVars.i18nSources` variable to comply with your requirements.
-* Automatic generation of manifest localization files directly from gettext po files. Please make sure buildVars.py is included in i18nFiles.
-* Automatic generation of HTML documents from markdown (.md) files, to manage documentation in different languages.
-* Automatic generation of entries for NV Access add-on store (json format).
+###Multiple installer
+In this section you will find a "Select a folder with add-ons to install..." button.
+Press it to select the folder where you have the add-on files wanting to install.
+The folder is inspected to find all the possible add-ons to install. Incompatible add-ons, or with some error, are excluded of the list to install and shown in a message.
+A list will be presented to choose the add-ons to install. After selection, press "Install".
 
-In addition, this template includes configuration files for the following tools for use in add-on development and testing (see "additional tools" section for details):
 
-* Flake8 (flake8.ini): a base configuration file for Flake8 linting tool based on NVDA's own Flake8 configuration file.
-* Configuration for VS Code. It requires NVDA's repo at the same level as the add-on folder containing your actual source files, with prepared source code (`scons source`). preparing the source code is a step in the instructions for building NVDA itself, see [The NVDA Repository](https://github.com/nvaccess/nvda) for details.
-        * Place the .vscode in this repo within the addon folder, where your add-on source files (will) reside. The settings file within this folder assumes the NVDA repository is within the parent folder of this folder. If your addon folder is within the addonTemplate folder, then your NVDA repository folder needs to also be within the addonTemplate folder, or the source will not be found.
-        * Open the addon folder in VS Code. This should initialize VS Code with the correct settings and provide you with code completion and other VS Code features. 
-	* Press `control+shift+m` after saving a file to search for problems.
-	* Use arrow and tab keys for the autocompletion feature.
-	* Press `control+shift+p` to open the commands palette and search for recommended extensions to install or check if they are installed.
+### Make/restore Backups
+Selecting this toll you will find a list of the possible elements to backup/restore.
+Check the ones you want and select "Create a backup" or "Restore backup".
+If you choose to create a backup you should say where it will be saved.
+If you choose to restore, you must select the folder where it is saved and select the desired file.
+After finishing the results of the operation are shown in a dialog.
 
-## Requirements
 
-You need the following software to use this code for your NVDA add-on development and packaging:
+### Add-ons documentation
+Finally, here you will find the list of the installed add-ons with documentation.
+Select the one you want to read the documentation and press the "Open add-on documentation" button.
 
-* a Python distribution (3.7 or later is recommended). Check the [Python Website](https://www.python.org) for Windows Installers. Please note that at present, preparing the NVDA source code requires the 32-bit version of Python 3.7.
-* Scons - [Website](https://www.scons.org/) - version 4.3.0 or later. You can install it via PIP.
-* GNU Gettext tools, if you want to have localization support for your add-on - Recommended. Any Linux distro or cygwin have those installed. You can find windows builds [here](https://gnuwin32.sourceforge.net/downlinks/gettext.php).
-* Markdown 3.3.0 or later, if you want to convert documentation files to HTML documents. You can install it via PIP.
 
-Note, that you may not need these tools in a local build environment, if you are using [Appveyor](https://appveyor.com/) or [GitHub Actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions), to build and package your add-ons.
+## Commands
+The two features available are opening the main dialog and kill the NVDA process in case of NVDA gets stuck.
+Both do not have assigned commands.
+You can assign/modify in the "Input gestures" dialog in the "Add-ons tools" section.
 
-## Usage
-
-### To create a new NVDA add-on using this template:
-
-1. Create an empty folder to hold the files for your add-on.
-2. Copy the folder:
-```
-site_scons
-```
-and the following files, into your new empty folder:
-```
-buildVars.py
-manifest.ini.tpl
-manifest-translated.ini.tpl
-sconstruct
-.gitignore
-.gitattributes
-```
-3. If you intend to use the provided GitHub workflow, also copy the folder:
-```
-.github
-```
-and file:
-```
-.pre-commit-config.yaml
-```
-4. Create an `addon` folder inside your new folder. You will put your code in the usual folders for NVDA extensions, under the `addon` folder. For instance: `globalPlugins`, `synthDrivers`, etc.
-5. In the `buildVars.py` file, change variable `addon_info` with your add-on's information (name, summary, description, version, author, url, source url, license, and license URL). Also, be sure to carefully set the paths contained in the other variables in that file.
-6. Gettext translations must be placed into `addon\locale\<lang>/LC_MESSAGES\nvda.po`.
-
-#### Add-on manifest specification
-
-An add-on manifest generated manually or via `buildVars.py` must include the following information:
-
-* Name (string): a unique identifier for the add-on. It must use camel case (e.g. someModule). This is also used as part of add-on store to identify the add-on uniquely.
-* Summary (string): name as shown on NVDA's Add-ons Manager.
-* Description (string): a short detailed description about the add-on.
-* Version (string), ideally number.number with an optional third number, denoting major.minor.patch.
-* Author (string and an email address): one or more add-on author contact information in the form "name <email@address>".
-* URL (string): a web address where the add-on information can be found (typically community add-ons website address (https://addons.nvda-project.org) is used).
-* docFileName (string): name of the documentation file.
-* minimumNVDAVersion (year.major or year.major.minor): the earliest version of NVDA the add-on is compatible with (e.g. 2019.3). Add-ons are expected to use features introduced in this version of NVDA or declare compatibility with it.
-* lastTestedNVDAVersion (year.major or year.major.minor): the latest or last tested version of NVDA the add-on is said to be compatible with (e.g. 2020.3). Add-on authors are expected to declare this value after testing add-ons with the version of NVDA specified.
-* addon_updateChannel (string or None): the update channel for the add-on release.
-
-In addition, the following information must be filled out (not used in the manifest but used elsewhere such as add-on store):
-
-* sourceURL (string): repository URL for the add-on source code.
-* license (string): the license of the add-on and its source code.
-* licenseURL: the URL for the license file.
-
-### To manage documentation files for your addon:
-
-1. Copy the `readme.md` file for your add-on to the first created folder, where you copied `buildVars.py`. You can also copy `style.css` to improve the presentation of HTML documents.
-2. Documentation files (named `readme.md`) must be placed into `addon\doc\<lang>/`.
-
-### To package the add-on for distribution:
-
-1. Open a command line, change to the folder that has the `sconstruct` file (usually the root of your add-on development folder) and run the `scons` command. The created add-on, if there were no errors, is placed in the current directory.
-2. You can further customize variables in the `buildVars.py` file.
-3. You can also customize version and update channel information from command line by passing the following switches when running scons:
-	* version: add-on version string.
-	* versionNumber: add-on version number of the form major.minor.patch (all integers)
-	* channel: update channel (do not use this switch unless you know what you are doing).
-	* dev: suitable for development builds, names the add-on according to current date (yyyymmdd) and sets update channel to "dev".
-
-### Additional tools
-
-The template includes configuration files for use with additional tools such as linters. These include:
-
-* Flake8 (flake8.ini): a Python code linter (3.7.9 or later, can be installed with PIP).
-
-Read the documentation for the tools you wish to use when building and developing add-ons.
-
-Note that this template only provides a basic add-on structure and build infrastructure. You may need to adapt it for your specific needs such as using additional tools.
-
-If you have any issues please use the NVDA addon list mentioned above.
+[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.02.25/addonsTools-2024.02.25.nvda-addon

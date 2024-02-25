@@ -1,0 +1,1249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'addonPackager' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'EklentiPaketleyici' '1.2.2'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2024-02-25 15:29+0000\n"
+"PO-Revision-Date: 2024-02-25 15:35+0000\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Translators: Message asking user to remove an old add-on.
+#: addon\installTasks.py:19
+msgid ""
+"You have installed a version of the {} add-on.\n"
+"As its functionalities are replaced by this add-on and by add-ons store, we "
+"strongly recommend you to remove or, at least, disable it!"
+msgstr ""
+
+#. Translators: Label of a message asking user to remove an old add-on.
+#: addon\installTasks.py:21
+msgid "Warning!"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:42
+msgid "&Add-ons tools"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:59
+msgid "An action is pending a NVDA restart."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:60
+msgid "By security reasons, the add-on only can be used after restarting NVDA"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:61
+msgid "Do you want to restart NVDA now?"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:62
+msgid "Question"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:74
+msgid "Shows Add-ons tools main window"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:75
+#: addon\globalPlugins\addonsTools\__init__.py:95
+#: addon\globalPlugins\addonsTools\main.py:32
+msgid "Add-ons tools"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:85
+#: addon\globalPlugins\addonsTools\__init__.py:87
+msgid "Already exist an instance of Add-ons Tools open."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\__init__.py:85
+#: addon\globalPlugins\addonsTools\main.py:285
+#, fuzzy
+#| msgid "Información"
+msgid "Information"
+msgstr "Bilgi"
+
+#: addon\globalPlugins\addonsTools\__init__.py:94
+msgid "Close NVDA when it gets blocked"
+msgstr ""
+
+#. Translators: StaticText with instructions for the user:
+#: addon\globalPlugins\addonsTools\main.py:47
+msgid "Choose an tool and press Tab to access the options."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:54
+msgid "Add-ons packager"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:58
+#: addon\globalPlugins\addonsTools\main.py:81
+#: addon\globalPlugins\addonsTools\main.py:121
+msgid "&Add-ons list:"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:67
+#: addon\globalPlugins\addonsTools\main.py:90
+#, fuzzy
+#| msgid "&Selección"
+msgid "&Selection"
+msgstr "&seç"
+
+#: addon\globalPlugins\addonsTools\main.py:70
+#, fuzzy
+#| msgid "&Generar"
+msgid "&Generate"
+msgstr "&Oluştur"
+
+#: addon\globalPlugins\addonsTools\main.py:74
+msgid "Multiple installer"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:78
+msgid "&Select a folder with add-ons to install..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:93
+#, fuzzy
+#| msgid "&Instalar"
+msgid "&Install"
+msgstr "Y&ükle"
+
+#: addon\globalPlugins\addonsTools\main.py:97
+msgid "Make/restore Backups"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:101
+#, fuzzy
+#| msgid "&Lista de complementos:"
+msgid "&Backup elements:"
+msgstr "Ek&lenti Listesi:"
+
+#: addon\globalPlugins\addonsTools\main.py:110
+msgid "&Create a backup"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:113
+msgid "&Restore backup"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:117
+msgid "Add-ons documentation"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:127
+msgid "&Open add-on documentation"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:133
+msgid "&Status:"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:145
+#, fuzzy
+#| msgid "&Aceptar"
+msgid "&Accept"
+msgstr "Ka&bul Et"
+
+#: addon\globalPlugins\addonsTools\main.py:148
+#, fuzzy
+#| msgid "&Cancelar"
+msgid "&Cancel"
+msgstr "İ&ptal"
+
+#: addon\globalPlugins\addonsTools\main.py:151
+msgid "Close"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:195
+#: addon\globalPlugins\addonsTools\main.py:397
+#: addon\globalPlugins\addonsTools\main.py:440
+#: addon\globalPlugins\addonsTools\main.py:592
+msgid "Dictionaries folder"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:199
+#: addon\globalPlugins\addonsTools\main.py:401
+#: addon\globalPlugins\addonsTools\main.py:444
+#: addon\globalPlugins\addonsTools\main.py:594
+msgid "Profiles folder"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:203
+#: addon\globalPlugins\addonsTools\main.py:405
+#: addon\globalPlugins\addonsTools\main.py:448
+#: addon\globalPlugins\addonsTools\main.py:596
+msgid "Scratchpad folder"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:206
+#: addon\globalPlugins\addonsTools\main.py:408
+#: addon\globalPlugins\addonsTools\main.py:451
+#: addon\globalPlugins\addonsTools\main.py:598
+msgid "Profiles triggers file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:209
+#: addon\globalPlugins\addonsTools\main.py:411
+#: addon\globalPlugins\addonsTools\main.py:454
+#: addon\globalPlugins\addonsTools\main.py:600
+msgid "Gestures file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:212
+#: addon\globalPlugins\addonsTools\main.py:414
+#: addon\globalPlugins\addonsTools\main.py:457
+#: addon\globalPlugins\addonsTools\main.py:602
+msgid "NVDA configurations file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:255
+#: addon\globalPlugins\addonsTools\main.py:300
+msgid "&Select all"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:256
+#: addon\globalPlugins\addonsTools\main.py:301
+msgid "&Unselect all"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:262
+#: addon\globalPlugins\addonsTools\main.py:307
+msgid "You need to select at least one add-on to continue."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:262
+#: addon\globalPlugins\addonsTools\main.py:307
+#: addon\globalPlugins\addonsTools\main.py:322
+#: addon\globalPlugins\addonsTools\main.py:609
+msgid "Error"
+msgstr "Hata"
+
+#. Button select folder with add-ons to install.
+#: addon\globalPlugins\addonsTools\main.py:265
+#: addon\globalPlugins\addonsTools\main.py:279
+msgid "Select a folder:"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:285
+msgid "No add-ons found on selected folder."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:322
+#: addon\globalPlugins\addonsTools\main.py:609
+msgid ""
+"You need to select at least one backup element from the list to continue."
+msgstr ""
+
+#. Button restore backup
+#: addon\globalPlugins\addonsTools\main.py:328
+#: addon\globalPlugins\addonsTools\main.py:344
+#, fuzzy
+#| msgid "Archivo de copia de seguridad de NVDA (*.nvda-backup)|*.nvda-backup"
+msgid "NVDA backup file (*.nvda-backup)|*.nvda-backup"
+msgstr "NVDA Yedekleme Dosyası (*.nvda-backup)|*.nvda-backup"
+
+#: addon\globalPlugins\addonsTools\main.py:329
+msgid "Save backup in..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:345
+msgid "Select a NVDA backup file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:418
+#: addon\globalPlugins\addonsTools\main.py:462
+#: addon\globalPlugins\addonsTools\main.py:471
+#: addon\globalPlugins\addonsTools\main.py:512
+#: addon\globalPlugins\addonsTools\main.py:527
+#: addon\globalPlugins\addonsTools\utilities.py:475
+#: addon\globalPlugins\addonsTools\utilities.py:485
+#: addon\globalPlugins\addonsTools\utilities.py:500
+msgid "restart"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:553
+msgid "Restore NVDA backup"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:559
+msgid "Backup &content:"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:568
+#, fuzzy
+#| msgid "&Restaurar"
+msgid "&Restore"
+msgstr "Ge&ri Yükle"
+
+#: addon\globalPlugins\addonsTools\main.py:571
+msgid "&Close"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:168
+#, fuzzy
+#| msgid "Creando el complemento: {} {}"
+msgid "Creating the add-on: {} {}"
+msgstr "Eklenti oluşturuluyor: {} {}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:172
+msgid "All add-ons were generated correctly."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:173
+#: addon\globalPlugins\addonsTools\utilities.py:232
+#: addon\globalPlugins\addonsTools\utilities.py:237
+#: addon\globalPlugins\addonsTools\utilities.py:330
+#: addon\globalPlugins\addonsTools\utilities.py:341
+#: addon\globalPlugins\addonsTools\utilities.py:347
+msgid "Press 'Accept' to continue."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:177
+msgid "Occurred an unexpected error."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:178
+#, fuzzy
+#| msgid "Error"
+msgid "Error: {}"
+msgstr "Hata"
+
+#: addon\globalPlugins\addonsTools\utilities.py:179
+msgid "Please try again."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:220
+msgid "Searching add-ons in {}..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:224
+#, fuzzy
+#| msgid "No hay complementos compatibles en el directorio."
+msgid "No compatible add-ons on directory."
+msgstr "Dizinde desteklenen eklenti yok."
+
+#: addon\globalPlugins\addonsTools\utilities.py:228
+#: addon\globalPlugins\addonsTools\utilities.py:236
+msgid "Add-on information extraction completed successfully."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:229
+msgid "However, the folder contains incompatible add-ons."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:230
+msgid ""
+"* Add-ons with errors in manifest: {}'\n"
+"'{}"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:231
+msgid ""
+"* Add-ons not compatible with current API: {}.'\n"
+"'{}"
+msgstr ""
+
+#. Dictionary
+#: addon\globalPlugins\addonsTools\utilities.py:260
+msgid "Adding dictionaries folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:266
+msgid "Was not possible to add dictionaries folder to the backup file."
+msgstr ""
+
+#. Profiles
+#: addon\globalPlugins\addonsTools\utilities.py:268
+msgid "Adding profiles folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:274
+msgid "Was not possible to add profiles folder to the backup file."
+msgstr ""
+
+#. Scratchpad
+#: addon\globalPlugins\addonsTools\utilities.py:276
+msgid "Adding Scratchpad folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:282
+msgid "Was not possible to add Scratchpad folder to the backup file."
+msgstr ""
+
+#. Profiles triggers file
+#: addon\globalPlugins\addonsTools\utilities.py:285
+msgid "Adding profiles triggers file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:292
+#: addon\globalPlugins\addonsTools\utilities.py:294
+msgid "Was not possible to add profiles triggers file to the backup file."
+msgstr ""
+
+#. File gestures.ini
+#: addon\globalPlugins\addonsTools\utilities.py:296
+msgid "Adding gestures file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:303
+#: addon\globalPlugins\addonsTools\utilities.py:305
+msgid "Was not possible to add gestures file to the backup file.."
+msgstr ""
+
+#. NVDA configuration file
+#: addon\globalPlugins\addonsTools\utilities.py:307
+msgid "Adding NVDA configuration file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:314
+#: addon\globalPlugins\addonsTools\utilities.py:316
+msgid "Was not possible to add NVDA configuration file to the backup file.."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:329
+msgid ""
+"Correctly created backup file at:\n"
+"{}"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:339
+#: addon\globalPlugins\addonsTools\utilities.py:480
+#: addon\globalPlugins\addonsTools\utilities.py:488
+msgid ""
+"The following error have Occurred:\n"
+"{}"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:340
+#: addon\globalPlugins\addonsTools\utilities.py:346
+msgid "Was not possible to create the backup file"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:345
+#: addon\globalPlugins\addonsTools\utilities.py:495
+#: addon\globalPlugins\addonsTools\utilities.py:503
+msgid ""
+"The following errors have Occurred:\n"
+"{}"
+msgstr ""
+
+#. Dictionary
+#: addon\globalPlugins\addonsTools\utilities.py:368
+msgid "Restoring dictionary folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:377
+#: addon\globalPlugins\addonsTools\utilities.py:379
+msgid "Was not possible to restore the dictionaries folder."
+msgstr ""
+
+#. Profiles
+#: addon\globalPlugins\addonsTools\utilities.py:381
+msgid "Restoring profiles folder..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:390
+#: addon\globalPlugins\addonsTools\utilities.py:392
+msgid "Was not possible to restore the profiles folder."
+msgstr ""
+
+#. Scratchpad
+#: addon\globalPlugins\addonsTools\utilities.py:394
+#, fuzzy
+#| msgid "Directorio Scratchpad"
+msgid "Restoring Scratchpad folder..."
+msgstr "Scratchpad Dizini"
+
+#: addon\globalPlugins\addonsTools\utilities.py:403
+#: addon\globalPlugins\addonsTools\utilities.py:405
+msgid "Was not possible to restore the Scratchpad folder."
+msgstr ""
+
+#. profiles triggers file
+#: addon\globalPlugins\addonsTools\utilities.py:407
+msgid "Restoring profiles triggers file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:421
+#: addon\globalPlugins\addonsTools\utilities.py:423
+#: addon\globalPlugins\addonsTools\utilities.py:425
+msgid "Was not possible to restore the profiles triggers file."
+msgstr ""
+
+#. File gestures.ini
+#: addon\globalPlugins\addonsTools\utilities.py:427
+msgid "Restoring gestures file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:441
+#: addon\globalPlugins\addonsTools\utilities.py:443
+#: addon\globalPlugins\addonsTools\utilities.py:445
+msgid "Was not possible to restore the gestures file."
+msgstr ""
+
+#. NVDA configuration file
+#: addon\globalPlugins\addonsTools\utilities.py:447
+msgid "Restoring NVDA configuration file..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:461
+#: addon\globalPlugins\addonsTools\utilities.py:463
+#: addon\globalPlugins\addonsTools\utilities.py:465
+msgid "Was not possible to restore the NVDA configuration file."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:472
+msgid "The restore process was completed successfully."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:473
+#: addon\globalPlugins\addonsTools\utilities.py:483
+#: addon\globalPlugins\addonsTools\utilities.py:498
+msgid "NVDA needs to restart to make changes available."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:474
+#: addon\globalPlugins\addonsTools\utilities.py:484
+#: addon\globalPlugins\addonsTools\utilities.py:499
+msgid "Press 'Accept' or 'Close' to restart."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:481
+#: addon\globalPlugins\addonsTools\utilities.py:496
+msgid "Was not possible to restore all the backup"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:482
+#: addon\globalPlugins\addonsTools\utilities.py:497
+msgid "However some elements were restored"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:489
+#: addon\globalPlugins\addonsTools\utilities.py:504
+msgid "Was not possible to restore NVDA"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:490
+#: addon\globalPlugins\addonsTools\utilities.py:505
+msgid "Press 'Accept' or 'Close' to continue."
+msgstr ""
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Tools for managing add-ons"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid ""
+"Set of tools to manage add-ons not available on NVDA add-ons store:\n"
+"\t* Add-on packager: To create a add-on backup file or to send a modified "
+"add-on to someone test or use;\n"
+"\t* Multiple installer: Allows to select add-ons from a folder and install "
+"all at once;\n"
+"\t* Make/restore Backups: Allow to backup and restore some NVDA preferences, "
+"such as configurations, profiles and dictionaries;\n"
+"\t* Add-ons documentation: allow to open the documentation file.\n"
+"\t"
+msgstr ""
+
+#~ msgid "Utilidades para los complementos de NVDA"
+#~ msgstr "NVDA Eklentileri için Yardımcı Araçlar"
+
+#~ msgid ""
+#~ "Conjunto de utilidades para un manejo fácil de complementos para NVDA.\n"
+#~ "\n"
+#~ "* Empaquetador de complementos.\n"
+#~ "* Instalador múltiple de complementos.\n"
+#~ "* Desinstala complementos.\n"
+#~ "* Habilita / deshabilita complementos.\n"
+#~ "* Modificador de manifiestos, instalados y desde archivo no instalado.\n"
+#~ "* Documentación de complementos.\n"
+#~ "\n"
+#~ "Todas las áreas de fácil manejo y para ahorrar tiempo respecto al gestor "
+#~ "de complementos nativo de NVDA."
+#~ msgstr ""
+#~ "NVDA eklentilerinin kolay kullanımı için yardımcı araçlar seti.\n"
+#~ "\n"
+#~ "* Eklenti paketleyici.\n"
+#~ "* Çoklu eklenti yükleyici.\n"
+#~ "* Eklentileri kaldırın.\n"
+#~ "* Eklentileri etkinleştirin/devre dışı bırakın.\n"
+#~ "* Manifest değiştirici, yüklü ve yüklenmemiş dosyadan.\n"
+#~ "* Eklenti belgeleri.\n"
+#~ "\n"
+#~ "Tüm alanların kullanımı kolaydır ve NVDA'nın yerel eklenti yöneticisine "
+#~ "kıyasla zamandan tasarruf sağlar."
+
+#~ msgid "&Utilidades para los complementos de NVDA"
+#~ msgstr "NVDA Eklentileri için Yard&ımcı Araçlar"
+
+#~ msgid ""
+#~ "Hay una acción pendiente de reiniciar NVDA.\n"
+#~ "\n"
+#~ "Por motivos de seguridad el complemento no podrá ser usado hasta que no "
+#~ "reinicie.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Yapılan değişikliğin etkin olabilmesi için NVDA'yı yeniden başlatmak "
+#~ "gerekiyor.\n"
+#~ "\n"
+#~ "Güvenlik nedeniyle, eklenti siz yeniden başlatana kadar "
+#~ "kullanılamayacak.\n"
+#~ "\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid "Pregunta"
+#~ msgstr "Sor"
+
+#~ msgid "Muestra la ventana de Utilidades para los complementos de NVDA"
+#~ msgstr "NVDA eklentileri için Yardımcı Araçlar penceresini gösterir"
+
+#~ msgid ""
+#~ "Ya hay una instancia de Utilidades para los complementos de NVDA abierta."
+#~ msgstr "Zaten Açık bir pencere var."
+
+#~ msgid "Empaquetador de complementos"
+#~ msgstr "Eklenti Paketleyici"
+
+#~ msgid "Instalador múltiple"
+#~ msgstr "Çoklu yükleyici"
+
+#~ msgid "&Seleccione un directorio con complementos a instalar..."
+#~ msgstr "Yüklemek istediğiniz eklentilerin bulunduğu bir dizin &Sseçin..."
+
+#~ msgid "Desinstala complementos"
+#~ msgstr "Eklentileri kaldır"
+
+#~ msgid "&Desinstalar"
+#~ msgstr "kaldı&r"
+
+#~ msgid "Habilita / deshabilita complementos"
+#~ msgstr "Eklentileri etkinleştir/devre dışı bırak"
+
+#~ msgid "&Lista de complementos habilitados:"
+#~ msgstr "Etkin ek&lentilerin listesi:"
+
+#~ msgid "&Lista de complementos deshabilitados:"
+#~ msgstr "Devre dışı bırakılan eklentilerin &listesi:"
+
+#~ msgid "&Procesar"
+#~ msgstr "&Uygula"
+
+#~ msgid "Modificador de manifiestos"
+#~ msgstr "Manifest Değiştirici"
+
+#~ msgid "&Lista de complementos instalados:"
+#~ msgstr "Yüklü ek&lentilerin listesi:"
+
+#~ msgid "Seleccione versión Mayor:"
+#~ msgstr "Ana sürümü seç:"
+
+#~ msgid "Seleccione versión Menor:"
+#~ msgstr "Ara sürümü seç:"
+
+#~ msgid "Seleccione una revisión:"
+#~ msgstr "Düzeltme sürümünü seç:"
+
+#~ msgid "Hacer / restaurar copias de seguridad"
+#~ msgstr "Yedekleme yap / Yedeği geri yükle"
+
+#~ msgid "&Hacer copias de seguridad:"
+#~ msgstr "&Yedekleme yapın:"
+
+#~ msgid "&Crear copia de seguridad"
+#~ msgstr "Yedek &Oluştur"
+
+#~ msgid "&Restaurar copia de seguridad"
+#~ msgstr "Yedeği ge&ri yükle"
+
+#~ msgid "Documentación de complementos"
+#~ msgstr "Eklenti Belgeleri"
+
+#~ msgid "&Abrir documentación del complemento"
+#~ msgstr "Eklenti belgesini &aç"
+
+#~ msgid "&Estado:"
+#~ msgstr "d&urum:"
+
+#~ msgid "Cerrar"
+#~ msgstr "Kapat"
+
+#~ msgid "Directorio Diccionarios"
+#~ msgstr "Sözlükler dizini"
+
+#~ msgid "Directorio Perfiles"
+#~ msgstr "Profiller Dizini"
+
+#~ msgid "Fichero configuración disparadores de perfiles"
+#~ msgstr "Profil tetikleyici yapılandırma dosyası"
+
+#~ msgid "Fichero de configuración gestos de entrada"
+#~ msgstr "Girdi hareketleri yapılandırma dosyası"
+
+#~ msgid "Fichero de configuración de NVDA"
+#~ msgstr "NVDA yapılandırma dosyası"
+
+#~ msgid "&Seleccionar todo"
+#~ msgstr "&Tümünü Seç"
+
+#~ msgid "&Deseleccionar todo"
+#~ msgstr "Se&çimi temizle"
+
+#~ msgid "Tiene que seleccionar un complemento para continuar."
+#~ msgstr "Devam edebilmek için bir eklenti seçmelisiniz."
+
+#~ msgid "Seleccione un directorio:"
+#~ msgstr "Bir dizin seç:"
+
+#~ msgid "No se encontraron complementos en el directorio que selecciono."
+#~ msgstr "Seçtiğiniz dizinde eklenti bulunamadı."
+
+#~ msgid "Necesita elegir al menos un complemento para continuar."
+#~ msgstr "Devam edebilmek için en az bir eklenti seçmelisiniz."
+
+#~ msgid "Complementos &habilitados"
+#~ msgstr "&Etkin Olan Eklentiler"
+
+#~ msgid "Complementos &deshabilitados"
+#~ msgstr "&Devre dışı Olan Eklentiler"
+
+#~ msgid "Procesar &instalados"
+#~ msgstr "Dosyaya &Uygula"
+
+#~ msgid "Procesar un archivo de &complemento"
+#~ msgstr "&Eklenti Paketine uygula"
+
+#~ msgid ""
+#~ "Necesita elegir al menos un elemento de copia de seguridad de la lista "
+#~ "para continuar."
+#~ msgstr ""
+#~ "Devam edebilmek için listeden yedeklenecek en az bir öğe seçmelisiniz."
+
+#~ msgid "Guardar la copia de seguridad en..."
+#~ msgstr "Yedeklemeyi şuraya kaydet..."
+
+#~ msgid "Seleccione un archivo de copia de seguridad de NVDA"
+#~ msgstr "Bir NVDA yedekleme dosyası seç"
+
+#~ msgid "Complemento de NVDA (*.nvda-addon)|*.nvda-addon"
+#~ msgstr "NVDA Eklentisi (*.nvda-addon)|*.nvda-addon"
+
+#~ msgid "Seleccione un complemento de NVDA"
+#~ msgstr "Bir NVDA Eklentisi Seç"
+
+#~ msgid "Restaurar copia de seguridad de NVDA"
+#~ msgstr "NVDA Yedeğini Geri Yükle"
+
+#~ msgid "&Contenido de la copia de seguridad:"
+#~ msgstr "Yedekleme i&çeriği:"
+
+#~ msgid "&Cerrar"
+#~ msgstr "&Kapat"
+
+#~ msgid ""
+#~ "Se generaron correctamente todos los complementos.\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Tüm eklentiler başarıyla oluşturuldu.\n"
+#~ "\n"
+#~ "Devam etmek için kabul et'e basın."
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "Vuelva a intentarlo."
+#~ msgstr ""
+#~ "Beklenmedik bir hata oluştu. \n"
+#~ "\n"
+#~ "Hata: {}\n"
+#~ "\n"
+#~ "Tekrar deneyin."
+
+#~ msgid "Instalando el complemento: {}"
+#~ msgstr "Eklenti yükleniyor: {}"
+
+#~ msgid ""
+#~ "Se completo la instalación correctamente.\n"
+#~ "\n"
+#~ "NVDA necesita reiniciarse para aplicar las instalaciones.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Yükleme işlemi başarıyla tamamlandı.\n"
+#~ "\n"
+#~ "Kurulan eklentilerin etkin olabilmesi için NVDA'nın yeniden başlatılması "
+#~ "gerekiyor.\n"
+#~ "\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid ""
+#~ "No se pudo instalar el complemento.\n"
+#~ "\n"
+#~ "Fallo de compatibilidad.\n"
+#~ "\n"
+#~ "Busque un complemento compatible."
+#~ msgstr ""
+#~ "Eklenti yüklenemedi.\n"
+#~ "\n"
+#~ "Uyumluluk hatası.\n"
+#~ "\n"
+#~ "Uyumlu bir eklenti arayın."
+
+#~ msgid ""
+#~ "Se completo la instalación correctamente.\n"
+#~ "\n"
+#~ "Pero hay complementos que no se pudieron instalar.\n"
+#~ "\n"
+#~ "Los siguientes complementos son incompatibles, busque una versión "
+#~ "compatible:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "NVDA necesita reiniciarse para aplicar las instalaciones.\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Yükleme işlemi başarıyla tamamlandı.\n"
+#~ "\n"
+#~ "Ancak yüklenemeyen eklentiler var.\n"
+#~ "\n"
+#~ "Aşağıdaki eklentiler uyumsuz, lütfen uyumlu bir sürüm olup olmadığını "
+#~ "kontrol edin:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Kurulumu tamamlamak için NVDA'nın yeniden başlatılması gerekiyor.\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "No obstante hubo complementos que se instalaron y NVDA necesita reiniciar "
+#~ "para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Beklenmedik bir hata oluştu. \n"
+#~ "\n"
+#~ "Hata: {}\n"
+#~ "\n"
+#~ "Ancak kurulu eklentiler vardı ve değişiklikleri uygulamak için NVDA'nın "
+#~ "yeniden başlatılması gerekiyor.\n"
+#~ "\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid "Desinstalando el complemento: {}"
+#~ msgstr "Eklenti kaldırılıyor: {}"
+
+#~ msgid ""
+#~ "Se completo la desinstalación correctamente.\n"
+#~ "\n"
+#~ "NVDA necesita reiniciarse para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Kaldırma işlemi başarıyla tamamlandı.\n"
+#~ "\n"
+#~ "Değişiklikleri uygulamak için NVDA'nın yeniden başlatılması gerekiyor.\n"
+#~ "\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "No obstante hubo complementos que se desinstalaron y NVDA necesita "
+#~ "reiniciar para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Beklenmedik bir hata oluştu. \n"
+#~ "\n"
+#~ "Hata: {}\n"
+#~ "\n"
+#~ "Ancak kaldırılan eklentiler vardı ve değişiklikleri uygulamak için "
+#~ "NVDA'nın yeniden başlatılması gerekiyor.\n"
+#~ "\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid "Buscando complementos en {}..."
+#~ msgstr "{} içinde eklentiler aranıyor..."
+
+#~ msgid ""
+#~ "Se completo con éxito la extracción de información de los complementos.\n"
+#~ "\n"
+#~ "No obstante, el directorio que introdujo contiene complementos no "
+#~ "compatibles.\n"
+#~ "\n"
+#~ "* Complementos con fallo en el manifiesto: {}.\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "* Complementos no compatibles con la api actual: {}.\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Eklenti bilgileri başarıyla listeye alındı.\n"
+#~ "\n"
+#~ "Ancak belirttiğiniz dizin desteklenmeyen eklentiler içeriyor.\n"
+#~ "\n"
+#~ "* Manifest dosyası hatalı olan eklentiler: {}.\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "* Mevcut API tarafından desteklenmeyen eklentiler: {}.\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Devam etmek için kabul et'e basın."
+
+#~ msgid ""
+#~ "Se completo con éxito la extracción de información de los complementos.\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Eklenti bilgileri başarıyla listeye alındı.\n"
+#~ "\n"
+#~ "Devam etmek için kabul et'e basın."
+
+#~ msgid "Deshabilitando complementos..."
+#~ msgstr "Eklentiler devre dışı bırakılıyor..."
+
+#~ msgid "Habilitando complementos..."
+#~ msgstr "Eklentiler etkinleştiriliyor..."
+
+#~ msgid ""
+#~ "Se completo el proceso de habilitar y deshabilitar correctamente.\n"
+#~ "\n"
+#~ "NVDA necesita reiniciarse para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Etkinleştirme ve devre dışı bırakma işlemi başarıyla tamamlandı.\n"
+#~ "\n"
+#~ "Değişiklikleri uygulamak için NVDA'nın yeniden başlatılması gerekiyor.\n"
+#~ "\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "No obstante hubo complementos que se habilitaron o deshabilitaron y NVDA "
+#~ "necesita reiniciar para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Beklenmedik bir hata oluştu. \n"
+#~ "\n"
+#~ "Hata: {}\n"
+#~ "\n"
+#~ "Ancak etkinleştirilen veya devre dışı bırakılan eklentiler vardı ve "
+#~ "değişiklikleri uygulamak için NVDA'nın yeniden başlatılması gerekiyor.\n"
+#~ "\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid "Cambiando el manifiesto al complemento: {}"
+#~ msgstr "Manifest dosysı değiştiriliyor: {}"
+
+#~ msgid ""
+#~ "Se cambiaron los manifiestos correctamente.\n"
+#~ "\n"
+#~ "Para que la acción tenga efecto NVDA tiene que reiniciarse.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Manifest dosyaları başarıyla değiştirildi.\n"
+#~ "\n"
+#~ "Yapılan değişikliklerin etkinleştirilebilmesi için NVDA'nın yeniden "
+#~ "başlatılması gerekir.\n"
+#~ "\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid ""
+#~ "Se produjo un error inesperado. \n"
+#~ "\n"
+#~ "Error: {}\n"
+#~ "\n"
+#~ "No obstante hubo complementos que se les cambio el manifiesto y NVDA "
+#~ "necesita reiniciar para aplicar los cambios.\n"
+#~ "\n"
+#~ "¿Desea reiniciar NVDA ahora?"
+#~ msgstr ""
+#~ "Beklenmedik bir hata oluştu. \n"
+#~ "\n"
+#~ "Hata: {}\n"
+#~ "\n"
+#~ "Ancak, Manifest dosyaları değiştirilen eklentiler vardı ve değişiklikleri "
+#~ "uygulamak için NVDA'nın yeniden başlatılması gerekiyor.\n"
+#~ "\n"
+#~ "NVDA'yı şimdi yeniden başlatmak istiyor musunuz?"
+
+#~ msgid "Trabajando en el complemento: {}"
+#~ msgstr "Eklenti üzerinde çalışılıyor: {}"
+
+#~ msgid ""
+#~ "Se cambio correctamente el manifiesto.\n"
+#~ "\n"
+#~ "Se genero un complemento con el manifiesto cambiado en:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Manifest dosyası başarıyla değiştirildi.\n"
+#~ "\n"
+#~ "Manifest dosyası şu şekilde değiştirilerek bir eklenti oluşturuldu:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Devam etmek için kabul et'e basın."
+
+#~ msgid "Añadiendo el directorio de diccionarios..."
+#~ msgstr "Sözlükler dizini ekleniyor..."
+
+#~ msgid ""
+#~ "No se pudo agregar el directorio de diccionarios a la copia de seguridad."
+#~ msgstr "Sözlükler dizini yedeklemeye eklenemedi."
+
+#~ msgid "Añadiendo el directorio de Perfiles..."
+#~ msgstr "Profiller dizini ekleniyor..."
+
+#~ msgid ""
+#~ "No se pudo agregar el directorio de Perfiles a la copia de seguridad."
+#~ msgstr "Profiller dizini yedeklemeye eklenemedi."
+
+#~ msgid "Añadiendo el directorio de Scratchpad..."
+#~ msgstr "Scratchpad dizini ekleniyor..."
+
+#~ msgid ""
+#~ "No se pudo agregar el directorio de Scratchpad a la copia de seguridad."
+#~ msgstr "Scratchpad dizini yedeklemeye eklenemedi."
+
+#~ msgid "Añadiendo el Fichero configuración disparadores de perfiles..."
+#~ msgstr "Profil tetikleyici yapılandırma dosyası ekleniyor..."
+
+#~ msgid ""
+#~ "No se pudo agregar el Fichero configuración disparadores de perfiles a la "
+#~ "copia de seguridad."
+#~ msgstr "Profil tetikleyici yapılandırma dosyası yedeklemeye eklenemedi."
+
+#~ msgid "Añadiendo el Fichero de configuración gestos de entrada..."
+#~ msgstr "Girdi hareketleri yapılandırma dosyası ekleniyor..."
+
+#~ msgid ""
+#~ "No se pudo agregar el Fichero de configuración gestos de entrada a la "
+#~ "copia de seguridad."
+#~ msgstr "Girdi hareketleri yapılandırma dosyası yedeklemeye eklenemedi."
+
+#~ msgid "Añadiendo el Fichero de configuración de NVDA..."
+#~ msgstr "NVDA Yapılandırma Dosyası Ekleniyor..."
+
+#~ msgid ""
+#~ "No se pudo agregar el Fichero de configuración de NVDA a la copia de "
+#~ "seguridad."
+#~ msgstr "NVDA Yapılandırma Dosyası yedeklemeye eklenemedi."
+
+#~ msgid ""
+#~ "Se creo la copia de seguridad correctamente en:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Pulse aceptar para continuar."
+#~ msgstr ""
+#~ "Yedekleme başarıyla oluşturuldu:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Devam etmek için kabul et'e basın."
+
+#~ msgid ""
+#~ "Se produjo el siguiente error:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo crear la copia de seguridad."
+#~ msgstr ""
+#~ "Aşağıdaki hata oluştu:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Yedek oluşturulamadı."
+
+#~ msgid ""
+#~ "Se produjeron los siguientes errores:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo crear la copia de seguridad."
+#~ msgstr ""
+#~ "Şu hatalar oluştu:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Yedek oluşturulamadı."
+
+#~ msgid "Restaurando el directorio de diccionarios..."
+#~ msgstr "Sözlükler dizini geri yükleniyor..."
+
+#~ msgid "No se pudo restaurar el directorio de diccionarios."
+#~ msgstr "Sözlükler dizini geri yüklenemedi."
+
+#~ msgid "Restaurando el directorio de Perfiles..."
+#~ msgstr "Profiller dizini geri yükleniyor..."
+
+#~ msgid "No se pudo restaurar el directorio de Perfiles."
+#~ msgstr "Profiller dizini geri yüklenemedi."
+
+#~ msgid "Restaurando el directorio de Scratchpad..."
+#~ msgstr "Scratchpad dizini geri yükleniyor..."
+
+#~ msgid "No se pudo restaurar el directorio de Scratchpad."
+#~ msgstr "Scratchpad dizini geri yüklenemedi."
+
+#~ msgid "Restaurando el Fichero configuración disparadores de perfiles..."
+#~ msgstr "Profil tetikleyici yapılandırma dosyası geri yükleniyor..."
+
+#~ msgid ""
+#~ "No se pudo restaurar el Fichero configuración disparadores de perfiles."
+#~ msgstr "Profil tetikleyici yapılandırma dosyası geri yüklenemedi."
+
+#~ msgid "Restaurando el Fichero configuración gestos de entrada..."
+#~ msgstr "Girdi hareketleri yapılandırma dosyası geri yükleniyor..."
+
+#~ msgid "No se pudo restaurar el Fichero configuración de gestos de entrada."
+#~ msgstr "Girdi hareketleri yapılandırma dosyası geri yüklenemedi."
+
+#~ msgid "No se pudo restaurar el Fichero configuración gestos de entrada."
+#~ msgstr "Girdi hareketlerii yapılandırma dosyası geri yüklenemedi."
+
+#~ msgid "Restaurando el Fichero configuración de NVDA..."
+#~ msgstr "NVDA Yapılandırma Dosyası Geri Yükleniyor..."
+
+#~ msgid "No se pudo restaurar el Fichero configuración de NVDA."
+#~ msgstr "NVDA Yapılandırma Dosyası geri yüklenemedi."
+
+#~ msgid ""
+#~ "La restauración fue un éxito.\n"
+#~ "\n"
+#~ "Al restaurar la configuración de NVDA es necesario reiniciar el lector.\n"
+#~ "\n"
+#~ "Pulse aceptar o cerrar para reiniciar."
+#~ msgstr ""
+#~ "Geri yükleme işlemi başarılı.\n"
+#~ "\n"
+#~ "NVDA ayarlarının geri yüklenmesi, Ekran okuyucunun yeniden başlatılmasını "
+#~ "gerektirir.\n"
+#~ "\n"
+#~ "Yeniden başlatmak için Kabul Et veya kapat'ı tıklayın."
+
+#~ msgid ""
+#~ "Se produjo el siguiente error:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo restaurar toda la copia de seguridad.\n"
+#~ "\n"
+#~ "Pero hay elementos que si pudieron ser restaurados.\n"
+#~ "\n"
+#~ "Al restaurar la configuración de NVDA es necesario reiniciar el lector.\n"
+#~ "\n"
+#~ "Pulse cancelar o cerrar para reiniciar."
+#~ msgstr ""
+#~ "Aşağıdaki hata oluştu:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Tüm yedekleme geri yüklenemedi.\n"
+#~ "\n"
+#~ "Ancak geri yüklenebilecek öğeler bulunuyor.\n"
+#~ "\n"
+#~ "NVDA ayarlarının geri yüklenmesi, Ekran okuyucunun yeniden başlatılmasını "
+#~ "gerektirir.\n"
+#~ "\n"
+#~ "Yeniden başlatmak için Kabul Etveya kapat'a basın."
+
+#~ msgid ""
+#~ "Se produjo el siguiente error:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo restaurar la copia de seguridad.\n"
+#~ "\n"
+#~ "Pulse cancelar o cerrar para continuar."
+#~ msgstr ""
+#~ "Aşağıdaki hata oluştu:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Yedek geri yüklenemedi.\n"
+#~ "\n"
+#~ "Devam etmek için Kabul Et veya kapat'a basın."
+
+#~ msgid ""
+#~ "Se produjeron los siguientes errores:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo restaurar toda la copia de seguridad.\n"
+#~ "\n"
+#~ "Pero hay elementos que si pudieron ser restaurados.\n"
+#~ "\n"
+#~ "Al restaurar la configuración de NVDA es necesario reiniciar el lector.\n"
+#~ "\n"
+#~ "Pulse cancelar o cerrar para reiniciar."
+#~ msgstr ""
+#~ "Şu hatalar oluştu:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Tüm yedekleme geri yüklenemedi.\n"
+#~ "\n"
+#~ "Ancak geri yüklenebilecek öğeler bulunuyor.\n"
+#~ "\n"
+#~ "NVDA ayarlarının geri yüklenmesi, Ekran okuyucunun yeniden başlatılmasını "
+#~ "gerektirir.\n"
+#~ "\n"
+#~ "Yeniden başlatmak için Kabul Et veya kapat'a basın."
+
+#~ msgid ""
+#~ "Se produjeron los siguientes errores:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "No se pudo restaurar la copia de seguridad.\n"
+#~ "\n"
+#~ "Pulse cancelar o cerrar para continuar."
+#~ msgstr ""
+#~ "Şu hatalar oluştu:\n"
+#~ "\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Yedek geri yüklenemedi.\n"
+#~ "\n"
+#~ "Devam etmek için Kabul Et veya kapat'a basın."
