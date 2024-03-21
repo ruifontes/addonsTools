@@ -3,7 +3,7 @@
 
 ## Informação
 *Autores: Rui Fontes <rui.fontes@tiflotecnia.com>, Angelo Abrantes <ampa4374@gmail.com> e Abel Passos Jr.
-*Atualizado em 25/02/2024
+*Atualizado em 21/03/2024
 * Descarregue a [versão estável] [1]
 * Compatibilidade: NVDA versão 2023.2 e posteriores
 
@@ -56,4 +56,4 @@ Os dois recursos disponíveis são abrir a caixa de diálogo principal e encerra
 Não possuem comandos atribuídos.
 Pode atribuir/modificar, os comandos, na caixa de diálogo "definir comandos" na secção "Preferências".
 
-[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.02.25/addonsTools-2024.02.25.nvda-addon
+[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.03.21/addonsTools-2024.03.21.nvda-addon

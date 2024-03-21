@@ -30,9 +30,9 @@ addon_info = {
 	* Add-ons documentation: allow to open the documentation file.
 	"""),
 	# version
-	"addon_version": "2024.02.25",
+	"addon_version": "2024.03.21",
 	# Author(s)
-	"addon_author": "Rui Fontes <rui.fontes@tiflotecnia.com>, Ângelo Abrantes <ampa4374@gmail.com> and Abel Passos Jr. <abel.passos@gmail.com>",
+	"addon_author": "Rui Fontes <rui.fontes@tiflotecnia.com>, Ângelo Abrantes <ampa4374@gmail.com> and Abel Passos Jr. <abel.passos@gmail.com> based on the work of Héctor J. Benítez Corredera",
 	# URL for the add-on documentation support
 	"addon_url": "https://github.com/ruifontes/addonsTools",
 	# URL for the add-on repository where the source code can be found
@@ -42,7 +42,7 @@ addon_info = {
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
 	"addon_minimumNVDAVersion": "2023.2",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion": "2023.3",
+	"addon_lastTestedNVDAVersion": "2024.1",
 	# Add-on update channel (default is None, denoting stable releases,
 	# and for development releases, use "dev".)
 	# Do not change unless you know what you are doing!
