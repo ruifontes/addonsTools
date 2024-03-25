@@ -3,7 +3,6 @@
 
 ## Information
 * Authors: Rui Fontes <rui.fontes@tiflotecnia.com>, Angelo Abrantes <ampa4374@gmail.com> and Abel Passos Jr. <abel.passos@gmail.com>"
-* Updated in 21/03/2024
 * Download [stable version][1]
 * Compatibility: NVDA version 2021.1 and beyond
 
@@ -56,4 +55,4 @@ The two features available are opening the main dialog and kill the NVDA process
 Both do not have assigned commands.
 You can assign/modify in the "Input gestures" dialog in the "Add-ons tools" section.
 
-[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.03.21/addonsTools-2024.03.21.nvda-addon
+[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.03.24/addonsTools-2024.03.24.nvda-addon

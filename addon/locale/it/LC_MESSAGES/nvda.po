@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'addonPackager' '1.0.2'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2024-02-25 15:29+0000\n"
-"PO-Revision-Date: 2024-02-25 15:33+0000\n"
+"POT-Creation-Date: 2024-03-24 18:57+0000\n"
+"PO-Revision-Date: 2024-03-24 19:01+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it\n"
@@ -68,7 +68,7 @@ msgid "Already exist an instance of Add-ons Tools open."
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\__init__.py:85
-#: addon\globalPlugins\addonsTools\main.py:285
+#: addon\globalPlugins\addonsTools\main.py:286
 msgid "Information"
 msgstr "Informazione"
 
@@ -157,366 +157,419 @@ msgid "Close"
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\main.py:195
-#: addon\globalPlugins\addonsTools\main.py:397
-#: addon\globalPlugins\addonsTools\main.py:440
-#: addon\globalPlugins\addonsTools\main.py:592
+#: addon\globalPlugins\addonsTools\main.py:398
+#: addon\globalPlugins\addonsTools\main.py:441
+#: addon\globalPlugins\addonsTools\main.py:593
 msgid "Dictionaries folder"
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\main.py:199
-#: addon\globalPlugins\addonsTools\main.py:401
-#: addon\globalPlugins\addonsTools\main.py:444
-#: addon\globalPlugins\addonsTools\main.py:594
+#: addon\globalPlugins\addonsTools\main.py:402
+#: addon\globalPlugins\addonsTools\main.py:445
+#: addon\globalPlugins\addonsTools\main.py:595
 msgid "Profiles folder"
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\main.py:203
-#: addon\globalPlugins\addonsTools\main.py:405
-#: addon\globalPlugins\addonsTools\main.py:448
-#: addon\globalPlugins\addonsTools\main.py:596
+#: addon\globalPlugins\addonsTools\main.py:406
+#: addon\globalPlugins\addonsTools\main.py:449
+#: addon\globalPlugins\addonsTools\main.py:597
 msgid "Scratchpad folder"
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\main.py:206
-#: addon\globalPlugins\addonsTools\main.py:408
-#: addon\globalPlugins\addonsTools\main.py:451
-#: addon\globalPlugins\addonsTools\main.py:598
+#: addon\globalPlugins\addonsTools\main.py:409
+#: addon\globalPlugins\addonsTools\main.py:452
+#: addon\globalPlugins\addonsTools\main.py:599
 msgid "Profiles triggers file"
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\main.py:209
-#: addon\globalPlugins\addonsTools\main.py:411
-#: addon\globalPlugins\addonsTools\main.py:454
-#: addon\globalPlugins\addonsTools\main.py:600
+#: addon\globalPlugins\addonsTools\main.py:412
+#: addon\globalPlugins\addonsTools\main.py:455
+#: addon\globalPlugins\addonsTools\main.py:601
 msgid "Gestures file"
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\main.py:212
-#: addon\globalPlugins\addonsTools\main.py:414
-#: addon\globalPlugins\addonsTools\main.py:457
-#: addon\globalPlugins\addonsTools\main.py:602
+#: addon\globalPlugins\addonsTools\main.py:415
+#: addon\globalPlugins\addonsTools\main.py:458
+#: addon\globalPlugins\addonsTools\main.py:603
 msgid "NVDA configurations file"
-msgstr ""
-
-#: addon\globalPlugins\addonsTools\main.py:255
-#: addon\globalPlugins\addonsTools\main.py:300
-msgid "&Select all"
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\main.py:256
 #: addon\globalPlugins\addonsTools\main.py:301
+msgid "&Select all"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\main.py:257
+#: addon\globalPlugins\addonsTools\main.py:302
 msgid "&Unselect all"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\main.py:262
-#: addon\globalPlugins\addonsTools\main.py:307
+#: addon\globalPlugins\addonsTools\main.py:263
+#: addon\globalPlugins\addonsTools\main.py:308
 msgid "You need to select at least one add-on to continue."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\main.py:262
-#: addon\globalPlugins\addonsTools\main.py:307
-#: addon\globalPlugins\addonsTools\main.py:322
-#: addon\globalPlugins\addonsTools\main.py:609
+#: addon\globalPlugins\addonsTools\main.py:263
+#: addon\globalPlugins\addonsTools\main.py:308
+#: addon\globalPlugins\addonsTools\main.py:323
+#: addon\globalPlugins\addonsTools\main.py:610
 msgid "Error"
 msgstr "Errore"
 
 #. Button select folder with add-ons to install.
-#: addon\globalPlugins\addonsTools\main.py:265
-#: addon\globalPlugins\addonsTools\main.py:279
+#: addon\globalPlugins\addonsTools\main.py:266
+#: addon\globalPlugins\addonsTools\main.py:280
 msgid "Select a folder:"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\main.py:285
+#: addon\globalPlugins\addonsTools\main.py:286
 msgid "No add-ons found on selected folder."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\main.py:322
-#: addon\globalPlugins\addonsTools\main.py:609
+#: addon\globalPlugins\addonsTools\main.py:323
+#: addon\globalPlugins\addonsTools\main.py:610
 msgid ""
 "You need to select at least one backup element from the list to continue."
 msgstr ""
 
 #. Button restore backup
-#: addon\globalPlugins\addonsTools\main.py:328
-#: addon\globalPlugins\addonsTools\main.py:344
+#: addon\globalPlugins\addonsTools\main.py:329
+#: addon\globalPlugins\addonsTools\main.py:345
 msgid "NVDA backup file (*.nvda-backup)|*.nvda-backup"
 msgstr "File di backup di NVDA (*.nvda-backup)|*.nvda-backup"
 
-#: addon\globalPlugins\addonsTools\main.py:329
+#: addon\globalPlugins\addonsTools\main.py:330
 msgid "Save backup in..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\main.py:345
+#: addon\globalPlugins\addonsTools\main.py:346
 msgid "Select a NVDA backup file"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\main.py:418
-#: addon\globalPlugins\addonsTools\main.py:462
-#: addon\globalPlugins\addonsTools\main.py:471
-#: addon\globalPlugins\addonsTools\main.py:512
-#: addon\globalPlugins\addonsTools\main.py:527
-#: addon\globalPlugins\addonsTools\utilities.py:475
-#: addon\globalPlugins\addonsTools\utilities.py:485
-#: addon\globalPlugins\addonsTools\utilities.py:500
+#: addon\globalPlugins\addonsTools\main.py:419
+#: addon\globalPlugins\addonsTools\main.py:463
+#: addon\globalPlugins\addonsTools\main.py:472
+#: addon\globalPlugins\addonsTools\main.py:513
+#: addon\globalPlugins\addonsTools\main.py:528
+#: addon\globalPlugins\addonsTools\utilities.py:560
+#: addon\globalPlugins\addonsTools\utilities.py:570
+#: addon\globalPlugins\addonsTools\utilities.py:585
 msgid "restart"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\main.py:553
+#: addon\globalPlugins\addonsTools\main.py:554
 msgid "Restore NVDA backup"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\main.py:559
+#: addon\globalPlugins\addonsTools\main.py:560
 msgid "Backup &content:"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\main.py:568
+#: addon\globalPlugins\addonsTools\main.py:569
 msgid "&Restore"
 msgstr "&Ripristino"
 
-#: addon\globalPlugins\addonsTools\main.py:571
+#: addon\globalPlugins\addonsTools\main.py:572
 msgid "&Close"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:168
+#: addon\globalPlugins\addonsTools\utilities.py:164
 msgid "Creating the add-on: {} {}"
 msgstr "Creazione del plug-in: {} {}"
 
-#: addon\globalPlugins\addonsTools\utilities.py:172
+#: addon\globalPlugins\addonsTools\utilities.py:168
 msgid "All add-ons were generated correctly."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:173
-#: addon\globalPlugins\addonsTools\utilities.py:232
-#: addon\globalPlugins\addonsTools\utilities.py:237
-#: addon\globalPlugins\addonsTools\utilities.py:330
-#: addon\globalPlugins\addonsTools\utilities.py:341
-#: addon\globalPlugins\addonsTools\utilities.py:347
+#: addon\globalPlugins\addonsTools\utilities.py:169
+#: addon\globalPlugins\addonsTools\utilities.py:317
+#: addon\globalPlugins\addonsTools\utilities.py:322
+#: addon\globalPlugins\addonsTools\utilities.py:415
+#: addon\globalPlugins\addonsTools\utilities.py:426
+#: addon\globalPlugins\addonsTools\utilities.py:432
 msgid "Press 'Accept' to continue."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:177
+#: addon\globalPlugins\addonsTools\utilities.py:174
+#: addon\globalPlugins\addonsTools\utilities.py:249
+#: addon\globalPlugins\addonsTools\utilities.py:257
 msgid "Occurred an unexpected error."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:178
+#: addon\globalPlugins\addonsTools\utilities.py:175
+#: addon\globalPlugins\addonsTools\utilities.py:250
+#: addon\globalPlugins\addonsTools\utilities.py:258
 msgid "Error: {}"
 msgstr "Errore: {}"
 
-#: addon\globalPlugins\addonsTools\utilities.py:179
+#: addon\globalPlugins\addonsTools\utilities.py:176
+#: addon\globalPlugins\addonsTools\utilities.py:251
 msgid "Please try again."
 msgstr ""
 
+#: addon\globalPlugins\addonsTools\utilities.py:196
+#, fuzzy
+#| msgid "Creating the add-on: {} {}"
+msgid "Installing the add-on: {}"
+msgstr "Creazione del plug-in: {} {}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:219
+#, fuzzy
+#| msgid "Instalando el complemento: {}"
+msgid "Instalation correctly completed."
+msgstr "Installazione del plug-in: {}"
+
 #: addon\globalPlugins\addonsTools\utilities.py:220
-msgid "Searching add-ons in {}..."
+#: addon\globalPlugins\addonsTools\utilities.py:241
+#: addon\globalPlugins\addonsTools\utilities.py:260
+#: addon\globalPlugins\addonsTools\utilities.py:558
+#: addon\globalPlugins\addonsTools\utilities.py:568
+#: addon\globalPlugins\addonsTools\utilities.py:583
+msgid "NVDA needs to restart to make changes available."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:224
-msgid "No compatible add-ons on directory."
-msgstr "Non ci sono plugin supportati nella directory."
+#: addon\globalPlugins\addonsTools\utilities.py:221
+#: addon\globalPlugins\addonsTools\utilities.py:242
+#: addon\globalPlugins\addonsTools\utilities.py:261
+#: addon\globalPlugins\addonsTools\utilities.py:559
+#: addon\globalPlugins\addonsTools\utilities.py:569
+#: addon\globalPlugins\addonsTools\utilities.py:584
+msgid "Press 'Accept' to restart."
+msgstr ""
 
 #: addon\globalPlugins\addonsTools\utilities.py:228
-#: addon\globalPlugins\addonsTools\utilities.py:236
-msgid "Add-on information extraction completed successfully."
+msgid "Was not possible to install the add-on."
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\utilities.py:229
-msgid "However, the folder contains incompatible add-ons."
+msgid "Compatibility error."
 msgstr ""
 
 #: addon\globalPlugins\addonsTools\utilities.py:230
+msgid "Search for a compatible add-on"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:238
+msgid "Instalation completed correctly."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:239
+msgid "However some add-ons were not possible to be installed."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:240
+msgid ""
+"The following add-ons are incompatibles, search for a compatible version:\n"
+"{}"
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:259
+msgid "However some add-ons were installed."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:305
+msgid "Searching add-ons in {}..."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:309
+msgid "No compatible add-ons on directory."
+msgstr "Non ci sono plugin supportati nella directory."
+
+#: addon\globalPlugins\addonsTools\utilities.py:313
+#: addon\globalPlugins\addonsTools\utilities.py:321
+msgid "Add-on information extraction completed successfully."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:314
+msgid "However, the folder contains incompatible add-ons."
+msgstr ""
+
+#: addon\globalPlugins\addonsTools\utilities.py:315
 msgid ""
 "* Add-ons with errors in manifest: {}'\n"
 "'{}"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:231
+#: addon\globalPlugins\addonsTools\utilities.py:316
 msgid ""
 "* Add-ons not compatible with current API: {}.'\n"
 "'{}"
 msgstr ""
 
 #. Dictionary
-#: addon\globalPlugins\addonsTools\utilities.py:260
+#: addon\globalPlugins\addonsTools\utilities.py:345
 msgid "Adding dictionaries folder..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:266
+#: addon\globalPlugins\addonsTools\utilities.py:351
 msgid "Was not possible to add dictionaries folder to the backup file."
 msgstr ""
 
 #. Profiles
-#: addon\globalPlugins\addonsTools\utilities.py:268
+#: addon\globalPlugins\addonsTools\utilities.py:353
 msgid "Adding profiles folder..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:274
+#: addon\globalPlugins\addonsTools\utilities.py:359
 msgid "Was not possible to add profiles folder to the backup file."
 msgstr ""
 
 #. Scratchpad
-#: addon\globalPlugins\addonsTools\utilities.py:276
+#: addon\globalPlugins\addonsTools\utilities.py:361
 msgid "Adding Scratchpad folder..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:282
+#: addon\globalPlugins\addonsTools\utilities.py:367
 msgid "Was not possible to add Scratchpad folder to the backup file."
 msgstr ""
 
 #. Profiles triggers file
-#: addon\globalPlugins\addonsTools\utilities.py:285
+#: addon\globalPlugins\addonsTools\utilities.py:370
 msgid "Adding profiles triggers file..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:292
-#: addon\globalPlugins\addonsTools\utilities.py:294
+#: addon\globalPlugins\addonsTools\utilities.py:377
+#: addon\globalPlugins\addonsTools\utilities.py:379
 msgid "Was not possible to add profiles triggers file to the backup file."
 msgstr ""
 
 #. File gestures.ini
-#: addon\globalPlugins\addonsTools\utilities.py:296
+#: addon\globalPlugins\addonsTools\utilities.py:381
 msgid "Adding gestures file..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:303
-#: addon\globalPlugins\addonsTools\utilities.py:305
+#: addon\globalPlugins\addonsTools\utilities.py:388
+#: addon\globalPlugins\addonsTools\utilities.py:390
 msgid "Was not possible to add gestures file to the backup file.."
 msgstr ""
 
 #. NVDA configuration file
-#: addon\globalPlugins\addonsTools\utilities.py:307
+#: addon\globalPlugins\addonsTools\utilities.py:392
 msgid "Adding NVDA configuration file..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:314
-#: addon\globalPlugins\addonsTools\utilities.py:316
+#: addon\globalPlugins\addonsTools\utilities.py:399
+#: addon\globalPlugins\addonsTools\utilities.py:401
 msgid "Was not possible to add NVDA configuration file to the backup file.."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:329
+#: addon\globalPlugins\addonsTools\utilities.py:414
 msgid ""
 "Correctly created backup file at:\n"
 "{}"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:339
-#: addon\globalPlugins\addonsTools\utilities.py:480
-#: addon\globalPlugins\addonsTools\utilities.py:488
+#: addon\globalPlugins\addonsTools\utilities.py:424
+#: addon\globalPlugins\addonsTools\utilities.py:565
+#: addon\globalPlugins\addonsTools\utilities.py:573
 msgid ""
 "The following error have Occurred:\n"
 "{}"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:340
-#: addon\globalPlugins\addonsTools\utilities.py:346
+#: addon\globalPlugins\addonsTools\utilities.py:425
+#: addon\globalPlugins\addonsTools\utilities.py:431
 msgid "Was not possible to create the backup file"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:345
-#: addon\globalPlugins\addonsTools\utilities.py:495
-#: addon\globalPlugins\addonsTools\utilities.py:503
+#: addon\globalPlugins\addonsTools\utilities.py:430
+#: addon\globalPlugins\addonsTools\utilities.py:580
+#: addon\globalPlugins\addonsTools\utilities.py:588
 msgid ""
 "The following errors have Occurred:\n"
 "{}"
 msgstr ""
 
 #. Dictionary
-#: addon\globalPlugins\addonsTools\utilities.py:368
+#: addon\globalPlugins\addonsTools\utilities.py:453
 msgid "Restoring dictionary folder..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:377
-#: addon\globalPlugins\addonsTools\utilities.py:379
+#: addon\globalPlugins\addonsTools\utilities.py:462
+#: addon\globalPlugins\addonsTools\utilities.py:464
 msgid "Was not possible to restore the dictionaries folder."
 msgstr ""
 
 #. Profiles
-#: addon\globalPlugins\addonsTools\utilities.py:381
+#: addon\globalPlugins\addonsTools\utilities.py:466
 msgid "Restoring profiles folder..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:390
-#: addon\globalPlugins\addonsTools\utilities.py:392
+#: addon\globalPlugins\addonsTools\utilities.py:475
+#: addon\globalPlugins\addonsTools\utilities.py:477
 msgid "Was not possible to restore the profiles folder."
 msgstr ""
 
 #. Scratchpad
-#: addon\globalPlugins\addonsTools\utilities.py:394
+#: addon\globalPlugins\addonsTools\utilities.py:479
 #, fuzzy
 #| msgid "Directorio Scratchpad"
 msgid "Restoring Scratchpad folder..."
 msgstr "Elenco di Scratchpad"
 
-#: addon\globalPlugins\addonsTools\utilities.py:403
-#: addon\globalPlugins\addonsTools\utilities.py:405
+#: addon\globalPlugins\addonsTools\utilities.py:488
+#: addon\globalPlugins\addonsTools\utilities.py:490
 msgid "Was not possible to restore the Scratchpad folder."
 msgstr ""
 
 #. profiles triggers file
-#: addon\globalPlugins\addonsTools\utilities.py:407
+#: addon\globalPlugins\addonsTools\utilities.py:492
 msgid "Restoring profiles triggers file..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:421
-#: addon\globalPlugins\addonsTools\utilities.py:423
-#: addon\globalPlugins\addonsTools\utilities.py:425
+#: addon\globalPlugins\addonsTools\utilities.py:506
+#: addon\globalPlugins\addonsTools\utilities.py:508
+#: addon\globalPlugins\addonsTools\utilities.py:510
 msgid "Was not possible to restore the profiles triggers file."
 msgstr ""
 
 #. File gestures.ini
-#: addon\globalPlugins\addonsTools\utilities.py:427
+#: addon\globalPlugins\addonsTools\utilities.py:512
 msgid "Restoring gestures file..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:441
-#: addon\globalPlugins\addonsTools\utilities.py:443
-#: addon\globalPlugins\addonsTools\utilities.py:445
+#: addon\globalPlugins\addonsTools\utilities.py:526
+#: addon\globalPlugins\addonsTools\utilities.py:528
+#: addon\globalPlugins\addonsTools\utilities.py:530
 msgid "Was not possible to restore the gestures file."
 msgstr ""
 
 #. NVDA configuration file
-#: addon\globalPlugins\addonsTools\utilities.py:447
+#: addon\globalPlugins\addonsTools\utilities.py:532
 msgid "Restoring NVDA configuration file..."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:461
-#: addon\globalPlugins\addonsTools\utilities.py:463
-#: addon\globalPlugins\addonsTools\utilities.py:465
+#: addon\globalPlugins\addonsTools\utilities.py:546
+#: addon\globalPlugins\addonsTools\utilities.py:548
+#: addon\globalPlugins\addonsTools\utilities.py:550
 msgid "Was not possible to restore the NVDA configuration file."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:472
+#: addon\globalPlugins\addonsTools\utilities.py:557
 msgid "The restore process was completed successfully."
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:473
-#: addon\globalPlugins\addonsTools\utilities.py:483
-#: addon\globalPlugins\addonsTools\utilities.py:498
-msgid "NVDA needs to restart to make changes available."
-msgstr ""
-
-#: addon\globalPlugins\addonsTools\utilities.py:474
-#: addon\globalPlugins\addonsTools\utilities.py:484
-#: addon\globalPlugins\addonsTools\utilities.py:499
-msgid "Press 'Accept' or 'Close' to restart."
-msgstr ""
-
-#: addon\globalPlugins\addonsTools\utilities.py:481
-#: addon\globalPlugins\addonsTools\utilities.py:496
+#: addon\globalPlugins\addonsTools\utilities.py:566
+#: addon\globalPlugins\addonsTools\utilities.py:581
 msgid "Was not possible to restore all the backup"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:482
-#: addon\globalPlugins\addonsTools\utilities.py:497
+#: addon\globalPlugins\addonsTools\utilities.py:567
+#: addon\globalPlugins\addonsTools\utilities.py:582
 msgid "However some elements were restored"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:489
-#: addon\globalPlugins\addonsTools\utilities.py:504
+#: addon\globalPlugins\addonsTools\utilities.py:574
+#: addon\globalPlugins\addonsTools\utilities.py:589
 msgid "Was not possible to restore NVDA"
 msgstr ""
 
-#: addon\globalPlugins\addonsTools\utilities.py:490
-#: addon\globalPlugins\addonsTools\utilities.py:505
+#: addon\globalPlugins\addonsTools\utilities.py:575
+#: addon\globalPlugins\addonsTools\utilities.py:590
 msgid "Press 'Accept' or 'Close' to continue."
 msgstr ""
 
@@ -762,9 +815,6 @@ msgstr ""
 #~ "Errore: {}\n"
 #~ "\n"
 #~ "Riprova"
-
-#~ msgid "Instalando el complemento: {}"
-#~ msgstr "Installazione del plug-in: {}"
 
 #~ msgid ""
 #~ "Se completo la instalación correctamente.\n"

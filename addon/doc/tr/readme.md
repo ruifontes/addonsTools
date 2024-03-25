@@ -3,7 +3,6 @@
 
 ## Bilgi
 * Yazarlar: Rui Fontes <rui.fontes@tiflotecnia.com>, Angelo Abrantes <ampa4374@gmail.com> ve Abel Passos Jr. <abel.passos@gmail.com>"
-* 21/03/2024 tarihinde güncellendi
 * [Kararlı sürümü indirin][1]
 * Uyumluluk: NVDA sürüm 2021.1 ve sonrası.
 
@@ -71,4 +70,4 @@ Mevcut iki özellik, ana iletişim kutusunu açmak ve NVDA'nın takılıp kalmas
 Her ikisinin de atanmış komutları yoktur.
 Girdi hareketleri iletişim kutusunda, eklenti araçları dalı altından istenen hareketler atanabilir.
 
-[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.03.21/addonsTools-2024.03.21.nvda-addon
+[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.03.24/addonsTools-2024.03.24.nvda-addon

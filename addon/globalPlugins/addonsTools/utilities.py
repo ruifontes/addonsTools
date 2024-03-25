@@ -25,23 +25,19 @@ addonHandler.initTranslation()
 ADDON_API_VERSION_REGEX = re.compile(r"^(0|\d{4})\.(\d)(?:\.(\d))?$")
 
 def getAPIVersionTupleFromString(version):
-	"""Converts a string containing an NVDA version to a tuple of the form (versionYear, versionMajor, versionMinor)"""
+	# Converts a string containing an NVDA version to a tuple of the form (versionYear, versionMajor, versionMinor)
 	match = ADDON_API_VERSION_REGEX.match(version)
 	if not match:
 		raise ValueError(version)
 	return tuple(int(i) if i is not None else 0 for i in match.groups())
 
 def hasAddonGotRequiredSupport(addonMin, currentAPIVersion=addonAPIVersion.CURRENT):
-	"""
-	True if NVDA provides the add-on with an API version high enough to meet the add-on's minimum requirements
-	"""
+	# True if NVDA provides the add-on with an API version high enough to meet the add-on's minimum requirements
 	return addonMin <= currentAPIVersion
 
 def isAddonTested(addonMax, backwardsCompatToVersion=addonAPIVersion.BACK_COMPAT_TO):
-	"""
-	True if this add-on is tested for the given API version.
-	By default, the current version of NVDA is evaluated.
-	"""
+	# True if this add-on is tested for the given API version.
+	# By default, the current version of NVDA is evaluated.
 	return addonMax >= backwardsCompatToVersion
 
 def isAddonCompatible(
@@ -168,9 +164,10 @@ class compressIndividualAddons(Thread):
 				wx.CallAfter(self.frame.onStatusText, _("Creating the add-on: {} {}").format(self.frame.listAddons[i].manifest["name"], self.frame.listAddons[i].manifest["version"]))
 				zipfolder(addonSave, self.frame.listAddons[i].path)
 				wx.CallAfter(self.frame.onProgress, i+1)
-			msg =(
+			msg = (
 				_("All add-ons were generated correctly.") + "\n" +
-				_("Press 'Accept' to continue."))
+				_("Press 'Accept' to continue.")
+			)
 			wx.CallAfter(self.frame.onCorrect, msg)
 		except Exception as e:
 			msg = (
@@ -178,6 +175,94 @@ class compressIndividualAddons(Thread):
 				_("Error: {}").format(e) + "\n" +
 					_("Please try again."))
 			wx.CallAfter(self.frame.onError, msg)
+
+
+class InstallAddons(Thread):
+	def __init__(self, frame, selection):
+		super(InstallAddons, self).__init__()
+
+		self.frame = frame
+		self.selection = selection
+		self.daemon = True
+		self.start()
+
+	def run(self):
+		lstError = []
+		num = 0
+		numRestart = 0
+		try:
+			for i in self.selection:
+				num += 1
+				wx.CallAfter(self.frame.onStatusText, _("Installing the add-on: {}").format(self.frame.installTempList[1][i]))
+				wx.CallAfter(self.frame.onProgress, num)
+				bundle = addonHandler.AddonBundle(self.frame.installTempList[0][i])
+				if not addonHandler.addonVersionCheck.hasAddonGotRequiredSupport(bundle):
+					pass #We can create an error check here for plug-ins that cannot be installed due to incompatibility and then give a message
+				else:
+					if addonHandler.addonVersionCheck.isAddonTested(bundle):
+						bundleName = bundle.manifest['name']
+						isDisabled = False
+						for addon in addonHandler.getAvailableAddons():
+							if bundleName == addon.manifest['name']:
+								if addon.isDisabled:
+									isDisabled = True
+								if not addon.isPendingRemove:
+									addon.requestRemove()
+								break
+						addonHandler.installAddonBundle(bundle)
+						numRestart += 1
+					else:
+						lstError.append(i)
+			if len(lstError) == 0:
+				self.frame.restart = True
+				msg = (
+					_("Instalation correctly completed.") + "\n" +
+					_("NVDA needs to restart to make changes available.") + "\n" +
+					_("Press 'Accept' to restart.")
+				)
+				wx.CallAfter(self.frame.onCorrect, msg)
+			else:
+				if len(lstError) == len(self.frame.selectionInstall):
+					self.frame.restart = False
+					msg = (
+						_("Was not possible to install the add-on.") + "\n" +
+						_("Compatibility error.") + "\n" +
+						_("Search for a compatible add-on")
+					)
+					wx.CallAfter(self.frame.onError, msg)
+				else:
+					temp = []
+					for i in lstError:
+						temp.append(self.frame.installTempList[1][i])
+					msg = (
+						_("Instalation completed correctly.") + "\n" +
+						_("However some add-ons were not possible to be installed.") + "\n" +
+							_("The following add-ons are incompatibles, search for a compatible version:\n{}").format("\n".join(str(x) for x in temp)) + "\n" +
+							_("NVDA needs to restart to make changes available.") + "\n" +
+						_("Press 'Accept' to restart.")
+					)
+					self.frame.restart = True
+					wx.CallAfter(self.frame.onCorrect, msg)
+		except Exception as e:
+			if numRestart == 0:
+				msg = (
+					_("Occurred an unexpected error.") + "\n" +
+					_("Error: {}").format(e) + "\n" +
+					_("Please try again.")
+				)
+				self.frame.restart = False
+				wx.CallAfter(self.frame.onError, msg)
+			else:
+				msg = (
+					_("Occurred an unexpected error.") + "\n" +
+					_("Error: {}").format(e) + "\n" +
+					_("However some add-ons were installed.") + "\n" +
+					_("NVDA needs to restart to make changes available.") + "\n" +
+					_("Press 'Accept' to restart.")
+				)
+				self.frame.restart = True
+				wx.CallAfter(self.frame.onCorrect, msg)
+
 
 class folderWithAddons(Thread):
 	def __init__(self, frame, directory, List):
@@ -471,7 +556,7 @@ class RestoreBackup(Thread):
 				msg = (
 					_("The restore process was completed successfully.") + "\n" +
 					_("NVDA needs to restart to make changes available.") + "\n" +
-				_("Press 'Accept' or 'Close' to restart."))
+				_("Press 'Accept' to restart."))
 				wx.CallAfter(self.frame.onCorrect, msg, [_("restart")])
 		else:
 			if len(error) == 1:
@@ -481,7 +566,7 @@ class RestoreBackup(Thread):
 						_("Was not possible to restore all the backup") + "\n" +
 						_("However some elements were restored") + "\n" +
 						_("NVDA needs to restart to make changes available.") + "\n" +
-						_("Press 'Accept' or 'Close' to restart."))
+						_("Press 'Accept' to restart."))
 					wx.CallAfter(self.frame.onError, msg, [_("restart")])
 				else:
 					msg = (
@@ -496,7 +581,7 @@ class RestoreBackup(Thread):
 						_("Was not possible to restore all the backup") + "\n" +
 						_("However some elements were restored") + "\n" +
 						_("NVDA needs to restart to make changes available.") + "\n" +
-						_("Press 'Accept' or 'Close' to restart."))
+						_("Press 'Accept' to restart."))
 					wx.CallAfter(self.frame.onError, msg, [_("restart")])
 				else:
 					msg = (

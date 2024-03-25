@@ -228,6 +228,7 @@ class MainWindow(wx.Dialog):
 
 	def onCorrect(self, event, List=None):
 		self.installTempList = List
+		print(str(List))
 		self.progress.SetValue(0)
 		winsound.MessageBeep(0)
 		self.IS_Active = False
