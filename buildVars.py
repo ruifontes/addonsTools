@@ -30,7 +30,7 @@ addon_info = {
 	* Add-ons documentation: allow to open the documentation file.
 	"""),
 	# version
-	"addon_version": "2024.03.24",
+	"addon_version": "2024.03.25",
 	# Author(s)
 	"addon_author": "Rui Fontes <rui.fontes@tiflotecnia.com>, Ângelo Abrantes <ampa4374@gmail.com> and Abel Passos Jr. <abel.passos@gmail.com> based on the work of Héctor J. Benítez Corredera",
 	# URL for the add-on documentation support

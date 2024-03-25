@@ -70,4 +70,4 @@ Mevcut iki özellik, ana iletişim kutusunu açmak ve NVDA'nın takılıp kalmas
 Her ikisinin de atanmış komutları yoktur.
 Girdi hareketleri iletişim kutusunda, eklenti araçları dalı altından istenen hareketler atanabilir.
 
-[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.03.24/addonsTools-2024.03.24.nvda-addon
+[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.03.25/addonsTools-2024.03.25.nvda-addon

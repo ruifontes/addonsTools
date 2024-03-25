@@ -55,4 +55,4 @@ Os dois recursos disponíveis são abrir a caixa de diálogo principal e encerra
 Não possuem comandos atribuídos.
 Pode atribuir/modificar, os comandos, na caixa de diálogo "definir comandos" na secção "Preferências".
 
-[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.03.24/addonsTools-2024.03.24.nvda-addon
+[1]: https://github.com/ruifontes/addonsTools/releases/download/2024.03.25/addonsTools-2024.03.25.nvda-addon
