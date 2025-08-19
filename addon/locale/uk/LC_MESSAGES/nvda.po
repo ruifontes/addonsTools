@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AddonPacker\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-08-18 12:23+0000\n"
-"PO-Revision-Date: 2025-08-18 20:20+0300\n"
+"PO-Revision-Date: 2025-08-19 09:59+0300\n"
 "Last-Translator: Ukrainian NVDA Community <vp88.mobile@gmail.com>\n"
 "Language-Team: Ukrainian NVDA Community\n"
 "Language: uk\n"
@@ -47,8 +47,8 @@ msgstr "Дія очікує перезапуску NVDA."
 #: addon/globalPlugins/addonsTools/__init__.py:60
 msgid "By security reasons, the add-on only can be used after restarting NVDA"
 msgstr ""
-"З міркувань безпеки, доповнення можна використовувати тільки після "
-"перезапуску NVDA"
+"З міркувань безпеки, додаток можна використовувати тільки після перезапуску "
+"NVDA"
 
 #: addon/globalPlugins/addonsTools/__init__.py:61
 msgid "Do you want to restart NVDA now?"
@@ -60,7 +60,7 @@ msgstr "Запитання"
 
 #: addon/globalPlugins/addonsTools/__init__.py:74
 msgid "Shows Add-ons tools main window"
-msgstr "Показує головне вікно інструментів доповнень"
+msgstr "Показати головне вікно інструментів додатків"
 
 #: addon/globalPlugins/addonsTools/__init__.py:75
 #: addon/globalPlugins/addonsTools/__init__.py:95
@@ -283,7 +283,7 @@ msgstr "&Закрити"
 
 #: addon/globalPlugins/addonsTools/utilities.py:164
 msgid "Creating the add-on: {} {}"
-msgstr "Створення доповнення: {} {}"
+msgstr "Створення додатка: {} {}"
 
 #: addon/globalPlugins/addonsTools/utilities.py:168
 msgid "All add-ons were generated correctly."
@@ -317,7 +317,7 @@ msgstr "Будь ласка, спробуйте ще раз."
 
 #: addon/globalPlugins/addonsTools/utilities.py:196
 msgid "Installing the add-on: {}"
-msgstr "Встановлення доповнення: {} {}"
+msgstr "Встановлення додатка: {} {}"
 
 #: addon/globalPlugins/addonsTools/utilities.py:219
 msgid "Instalation correctly completed."
@@ -366,7 +366,7 @@ msgid ""
 "The following add-ons are incompatibles, search for a compatible version:\n"
 "{}"
 msgstr ""
-"Наступні доповнення несумісні, знайдіть сумісну версію:\n"
+"Наступні додатки несумісні, знайдіть сумісну версію:\n"
 "{}"
 
 #: addon/globalPlugins/addonsTools/utilities.py:259
@@ -379,7 +379,7 @@ msgstr "Пошук додатків у {}..."
 
 #: addon/globalPlugins/addonsTools/utilities.py:309
 msgid "No compatible add-ons on directory."
-msgstr "У теці немає сумісних доповнень."
+msgstr "У теці немає сумісних додатків."
 
 #: addon/globalPlugins/addonsTools/utilities.py:313
 #: addon/globalPlugins/addonsTools/utilities.py:321
@@ -588,7 +588,7 @@ msgstr "Натисніть «Прийняти» або «Закрити», що�
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: buildVars.py:23
 msgid "Tools for managing add-ons"
-msgstr "Інструменти для управління доповненнями"
+msgstr "Інструменти для управління додатками"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -604,17 +604,18 @@ msgid ""
 "\t* Add-ons documentation: allow to open the documentation file.\n"
 "\t"
 msgstr ""
-"Набір інструментів для управління доповненнями, які не доступні в магазині "
-"доповнень NVDA:\n"
-"\t* Пакувальник доповнень: для створення файлу резервної копії доповнення "
-"або для надсилання модифікованого доповнення комусь для тестування або "
+"Набір інструментів для управління додатками, які не доступні в магазині "
+"додатків NVDA:\n"
+"\t* Пакувальник додатків: для створення файлу резервної копії додатка або "
+"для надсилання модифікованого додатка комусь для тестування або "
 "використання;\n"
 "\t* Багатофункціональний інсталятор: дозволяє вибрати додатки з папки та "
 "інсталювати їх усі одночасно;\n"
 "\t* Створення/відновлення резервних копій: дозволяє створювати резервні "
 "копії та відновлювати деякі налаштування NVDA, такі як конфігурації, профілі "
 "та словники;\n"
-"\t* Документація додатків: дозволяє відкрити файл документації."
+"\t* Документація додатків: дозволяє відкрити файл документації.\n"
+"\t"
 
 #~ msgid "Utilidades para los complementos de NVDA"
 #~ msgstr "Інструменти для додатків NVDA"
