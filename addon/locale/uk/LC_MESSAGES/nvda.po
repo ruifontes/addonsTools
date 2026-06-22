@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: AddonPacker\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-08-18 12:23+0000\n"
-"PO-Revision-Date: 2025-08-19 09:59+0300\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-05-02 22:34+0300\n"
+"PO-Revision-Date: 2026-05-02 22:46+0300\n"
 "Last-Translator: Ukrainian NVDA Community <vp88.mobile@gmail.com>\n"
 "Language-Team: Ukrainian NVDA Community\n"
 "Language: uk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-Basepath: ../../../..\n"
 "X-Poedit-SearchPath-0: addon/globalPlugins/addonPackager/__init__.py\n"
 "X-Poedit-SearchPath-1: addon/globalPlugins/addonPackager/ajustes.py\n"
@@ -20,8 +20,566 @@ msgstr ""
 "X-Poedit-SearchPath-3: addon/globalPlugins/addonPackager/utilidades.py\n"
 "X-Poedit-SearchPath-4: buildVars.py\n"
 
+#: addon\globalPlugins\addonsTools\main.py:32
+#: addon\globalPlugins\addonsTools\__init__.py:75
+#: addon\globalPlugins\addonsTools\__init__.py:95
+msgid "Add-ons tools"
+msgstr "Інструменти додатків"
+
+#. Translators: StaticText with instructions for the user:
+#: addon\globalPlugins\addonsTools\main.py:47
+msgid "Choose an tool and press Tab to access the options."
+msgstr "Виберіть інструмент і натисніть клавішу Tab, щоб перейти до опцій."
+
+#: addon\globalPlugins\addonsTools\main.py:54
+msgid "Add-ons packager"
+msgstr "Пакувальник додатків"
+
+#: addon\globalPlugins\addonsTools\main.py:58
+#: addon\globalPlugins\addonsTools\main.py:81
+#: addon\globalPlugins\addonsTools\main.py:121
+msgid "&Add-ons list:"
+msgstr "&Список додатків:"
+
+#: addon\globalPlugins\addonsTools\main.py:67
+#: addon\globalPlugins\addonsTools\main.py:90
+msgid "&Selection"
+msgstr "&Вибрати"
+
+#: addon\globalPlugins\addonsTools\main.py:70
+msgid "&Generate"
+msgstr "&Згенерувати"
+
+#: addon\globalPlugins\addonsTools\main.py:74
+msgid "Multiple installer"
+msgstr "Багатофункціональний інсталятор"
+
+#: addon\globalPlugins\addonsTools\main.py:78
+msgid "&Select a folder with add-ons to install..."
+msgstr "&Оберіть папку з додатками для встановлення..."
+
+#: addon\globalPlugins\addonsTools\main.py:93
+msgid "&Install"
+msgstr "&Встановити"
+
+#: addon\globalPlugins\addonsTools\main.py:97
+msgid "Make/restore Backups"
+msgstr "Створення/Відновлення резервних копій"
+
+#: addon\globalPlugins\addonsTools\main.py:101
+msgid "&Backup elements:"
+msgstr "&Елементи резервної копії:"
+
+#: addon\globalPlugins\addonsTools\main.py:110
+msgid "&Create a backup"
+msgstr "&Створити резервну копію"
+
+#: addon\globalPlugins\addonsTools\main.py:113
+msgid "&Restore backup"
+msgstr "&Відновити з резевної копії"
+
+#: addon\globalPlugins\addonsTools\main.py:117
+msgid "Add-ons documentation"
+msgstr "Документація додатків"
+
+#: addon\globalPlugins\addonsTools\main.py:127
+msgid "&Open add-on documentation"
+msgstr "&Відкрити документацію додатка"
+
+#: addon\globalPlugins\addonsTools\main.py:133
+msgid "&Status:"
+msgstr "&Статус:"
+
+#: addon\globalPlugins\addonsTools\main.py:145
+msgid "&Accept"
+msgstr "&Прийняти"
+
+#: addon\globalPlugins\addonsTools\main.py:148
+msgid "&Cancel"
+msgstr "&Скасувати"
+
+#: addon\globalPlugins\addonsTools\main.py:151
+msgid "Close"
+msgstr "Закрити"
+
+#: addon\globalPlugins\addonsTools\main.py:195
+#: addon\globalPlugins\addonsTools\main.py:398
+#: addon\globalPlugins\addonsTools\main.py:441
+#: addon\globalPlugins\addonsTools\main.py:593
+msgid "Dictionaries folder"
+msgstr "Папка словників"
+
+#: addon\globalPlugins\addonsTools\main.py:199
+#: addon\globalPlugins\addonsTools\main.py:402
+#: addon\globalPlugins\addonsTools\main.py:445
+#: addon\globalPlugins\addonsTools\main.py:595
+msgid "Profiles folder"
+msgstr "Папка профілів"
+
+#: addon\globalPlugins\addonsTools\main.py:203
+#: addon\globalPlugins\addonsTools\main.py:406
+#: addon\globalPlugins\addonsTools\main.py:449
+#: addon\globalPlugins\addonsTools\main.py:597
+msgid "Scratchpad folder"
+msgstr "Папка Scratchpad"
+
+#: addon\globalPlugins\addonsTools\main.py:206
+#: addon\globalPlugins\addonsTools\main.py:409
+#: addon\globalPlugins\addonsTools\main.py:452
+#: addon\globalPlugins\addonsTools\main.py:599
+msgid "Profiles triggers file"
+msgstr "Файл автозапуску профілів"
+
+#: addon\globalPlugins\addonsTools\main.py:209
+#: addon\globalPlugins\addonsTools\main.py:412
+#: addon\globalPlugins\addonsTools\main.py:455
+#: addon\globalPlugins\addonsTools\main.py:601
+msgid "Gestures file"
+msgstr "Файл жестів"
+
+#: addon\globalPlugins\addonsTools\main.py:212
+#: addon\globalPlugins\addonsTools\main.py:415
+#: addon\globalPlugins\addonsTools\main.py:458
+#: addon\globalPlugins\addonsTools\main.py:603
+msgid "NVDA configurations file"
+msgstr "Файл налаштувань NVDA"
+
+#: addon\globalPlugins\addonsTools\main.py:256
+#: addon\globalPlugins\addonsTools\main.py:301
+msgid "&Select all"
+msgstr "Обрати &все"
+
+#: addon\globalPlugins\addonsTools\main.py:257
+#: addon\globalPlugins\addonsTools\main.py:302
+msgid "&Unselect all"
+msgstr "&Відмінити вибір"
+
+#: addon\globalPlugins\addonsTools\main.py:263
+#: addon\globalPlugins\addonsTools\main.py:308
+msgid "You need to select at least one add-on to continue."
+msgstr "Щоб продовжити, потрібно вибрати хоча б один додаток."
+
+#: addon\globalPlugins\addonsTools\main.py:263
+#: addon\globalPlugins\addonsTools\main.py:308
+#: addon\globalPlugins\addonsTools\main.py:323
+#: addon\globalPlugins\addonsTools\main.py:610
+msgid "Error"
+msgstr "Помилка"
+
+#. Button select folder with add-ons to install.
+#: addon\globalPlugins\addonsTools\main.py:266
+#: addon\globalPlugins\addonsTools\main.py:280
+msgid "Select a folder:"
+msgstr "Обрати папку:"
+
+#: addon\globalPlugins\addonsTools\main.py:286
+msgid "No add-ons found on selected folder."
+msgstr "У обраній папці не знайдено додатків."
+
+#: addon\globalPlugins\addonsTools\main.py:286
+#: addon\globalPlugins\addonsTools\__init__.py:85
+msgid "Information"
+msgstr "Інформація"
+
+#: addon\globalPlugins\addonsTools\main.py:323
+#: addon\globalPlugins\addonsTools\main.py:610
+msgid ""
+"You need to select at least one backup element from the list to continue."
+msgstr ""
+"Щоб продовжити, потрібно вибрати принаймні один елемент резервної копії зі "
+"списку."
+
+#. Button restore backup
+#: addon\globalPlugins\addonsTools\main.py:329
+#: addon\globalPlugins\addonsTools\main.py:345
+msgid "NVDA backup file (*.nvda-backup)|*.nvda-backup"
+msgstr "Файл резервної копії NVDA (*.nvda-backup)|*.nvda-backup"
+
+#: addon\globalPlugins\addonsTools\main.py:330
+msgid "Save backup in..."
+msgstr "Зберегти резервну копію в..."
+
+#: addon\globalPlugins\addonsTools\main.py:346
+msgid "Select a NVDA backup file"
+msgstr "Оберіть файл резервної копії NVDA"
+
+#: addon\globalPlugins\addonsTools\main.py:419
+#: addon\globalPlugins\addonsTools\main.py:463
+#: addon\globalPlugins\addonsTools\main.py:472
+#: addon\globalPlugins\addonsTools\main.py:513
+#: addon\globalPlugins\addonsTools\main.py:528
+#: addon\globalPlugins\addonsTools\utilities.py:560
+#: addon\globalPlugins\addonsTools\utilities.py:570
+#: addon\globalPlugins\addonsTools\utilities.py:585
+msgid "restart"
+msgstr "перезапустити"
+
+#: addon\globalPlugins\addonsTools\main.py:554
+msgid "Restore NVDA backup"
+msgstr "Відновити резервну копію NVDA"
+
+#: addon\globalPlugins\addonsTools\main.py:560
+msgid "Backup &content:"
+msgstr "&Вміст резевної копії:"
+
+#: addon\globalPlugins\addonsTools\main.py:569
+msgid "&Restore"
+msgstr "&Відновити"
+
+#: addon\globalPlugins\addonsTools\main.py:572
+msgid "&Close"
+msgstr "&Закрити"
+
+#: addon\globalPlugins\addonsTools\utilities.py:164
+#, python-brace-format
+msgid "Creating the add-on: {} {}"
+msgstr "Створення додатка: {} {}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:168
+msgid "All add-ons were generated correctly."
+msgstr "Всі додатки успішно згенеровано."
+
+#: addon\globalPlugins\addonsTools\utilities.py:169
+#: addon\globalPlugins\addonsTools\utilities.py:317
+#: addon\globalPlugins\addonsTools\utilities.py:322
+#: addon\globalPlugins\addonsTools\utilities.py:415
+#: addon\globalPlugins\addonsTools\utilities.py:426
+#: addon\globalPlugins\addonsTools\utilities.py:432
+msgid "Press 'Accept' to continue."
+msgstr "Натисніть 'Прийняти' щоб продовжити."
+
+#: addon\globalPlugins\addonsTools\utilities.py:174
+#: addon\globalPlugins\addonsTools\utilities.py:249
+#: addon\globalPlugins\addonsTools\utilities.py:257
+msgid "Occurred an unexpected error."
+msgstr "Трапилась не очікувана помилка."
+
+#: addon\globalPlugins\addonsTools\utilities.py:175
+#: addon\globalPlugins\addonsTools\utilities.py:250
+#: addon\globalPlugins\addonsTools\utilities.py:258
+#, python-brace-format
+msgid "Error: {}"
+msgstr "Помилка: {}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:176
+#: addon\globalPlugins\addonsTools\utilities.py:251
+msgid "Please try again."
+msgstr "Будь ласка, спробуйте ще раз."
+
+#: addon\globalPlugins\addonsTools\utilities.py:196
+#, python-brace-format
+msgid "Installing the add-on: {}"
+msgstr "Встановлення додатка: {}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:219
+msgid "Instalation correctly completed."
+msgstr "Встановлення успішно завершено."
+
+#: addon\globalPlugins\addonsTools\utilities.py:220
+#: addon\globalPlugins\addonsTools\utilities.py:241
+#: addon\globalPlugins\addonsTools\utilities.py:260
+#: addon\globalPlugins\addonsTools\utilities.py:558
+#: addon\globalPlugins\addonsTools\utilities.py:568
+#: addon\globalPlugins\addonsTools\utilities.py:583
+msgid "NVDA needs to restart to make changes available."
+msgstr "NVDA потрібно перезапустити, щоб зміни набули чинності."
+
+#: addon\globalPlugins\addonsTools\utilities.py:221
+#: addon\globalPlugins\addonsTools\utilities.py:242
+#: addon\globalPlugins\addonsTools\utilities.py:261
+#: addon\globalPlugins\addonsTools\utilities.py:559
+#: addon\globalPlugins\addonsTools\utilities.py:569
+#: addon\globalPlugins\addonsTools\utilities.py:584
+msgid "Press 'Accept' to restart."
+msgstr "Натисніть 'Прийняти' щоб перезапустити."
+
+#: addon\globalPlugins\addonsTools\utilities.py:228
+msgid "Was not possible to install the add-on."
+msgstr "Не вдалося встановити додаток."
+
+#: addon\globalPlugins\addonsTools\utilities.py:229
+msgid "Compatibility error."
+msgstr "Помилка сумісності."
+
+#: addon\globalPlugins\addonsTools\utilities.py:230
+msgid "Search for a compatible add-on"
+msgstr "Пошук сумісного додатка"
+
+#: addon\globalPlugins\addonsTools\utilities.py:238
+msgid "Instalation completed correctly."
+msgstr "Встановлення завершено успішно."
+
+#: addon\globalPlugins\addonsTools\utilities.py:239
+msgid "However some add-ons were not possible to be installed."
+msgstr "Однак деякі додатки не вдалося встановити."
+
+#: addon\globalPlugins\addonsTools\utilities.py:240
+#, python-brace-format
+msgid ""
+"The following add-ons are incompatibles, search for a compatible version:\n"
+"{}"
+msgstr ""
+"Наступні додатки несумісні, знайдіть сумісну версію:\n"
+"{}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:259
+msgid "However some add-ons were installed."
+msgstr "Однак деякі додатки були встановлені."
+
+#: addon\globalPlugins\addonsTools\utilities.py:305
+#, python-brace-format
+msgid "Searching add-ons in {}..."
+msgstr "Пошук додатків у {}..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:309
+msgid "No compatible add-ons on directory."
+msgstr "У теці немає сумісних додатків."
+
+#: addon\globalPlugins\addonsTools\utilities.py:313
+#: addon\globalPlugins\addonsTools\utilities.py:321
+msgid "Add-on information extraction completed successfully."
+msgstr "Видобування інформації про додаток успішно завершено."
+
+#: addon\globalPlugins\addonsTools\utilities.py:314
+msgid "However, the folder contains incompatible add-ons."
+msgstr "Однак папка містить несумісні додатки."
+
+#: addon\globalPlugins\addonsTools\utilities.py:315
+#, python-brace-format
+msgid ""
+"* Add-ons with errors in manifest: {}'\n"
+"'{}"
+msgstr ""
+"* Додатки з помилками в маніфесті: {}'\n"
+"'{}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:316
+#, python-brace-format
+msgid ""
+"* Add-ons not compatible with current API: {}.'\n"
+"'{}"
+msgstr ""
+"* Додатки, несумісні з поточним API: {}.'\n"
+"'{}"
+
+#. Dictionary
+#: addon\globalPlugins\addonsTools\utilities.py:345
+msgid "Adding dictionaries folder..."
+msgstr "Додавання папки словників..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:351
+msgid "Was not possible to add dictionaries folder to the backup file."
+msgstr "Не вдалося додати папку словників до файлу резервної копії."
+
+#. Profiles
+#: addon\globalPlugins\addonsTools\utilities.py:353
+msgid "Adding profiles folder..."
+msgstr "Додавання папок профілів..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:359
+msgid "Was not possible to add profiles folder to the backup file."
+msgstr "Не вдалося додати папку профілів до файлу резервної копії."
+
+#. Scratchpad
+#: addon\globalPlugins\addonsTools\utilities.py:361
+msgid "Adding Scratchpad folder..."
+msgstr "Додавання папки Scratchpad..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:367
+msgid "Was not possible to add Scratchpad folder to the backup file."
+msgstr "Не вдалося додати папку Scratchpad до файлу резервної копії."
+
+#. Profiles triggers file
+#: addon\globalPlugins\addonsTools\utilities.py:370
+msgid "Adding profiles triggers file..."
+msgstr "Не вдалося додати файл автозапуску профілів до файлу резервної копії."
+
+#: addon\globalPlugins\addonsTools\utilities.py:377
+#: addon\globalPlugins\addonsTools\utilities.py:379
+msgid "Was not possible to add profiles triggers file to the backup file."
+msgstr "Не вдалося додати файл автозапуску профілів до файлу резервної копії."
+
+#. File gestures.ini
+#: addon\globalPlugins\addonsTools\utilities.py:381
+msgid "Adding gestures file..."
+msgstr "Додавання файлу жестів..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:388
+#: addon\globalPlugins\addonsTools\utilities.py:390
+msgid "Was not possible to add gestures file to the backup file.."
+msgstr "Не вдалося додати файл жестів до файлу резервної копії."
+
+#. NVDA configuration file
+#: addon\globalPlugins\addonsTools\utilities.py:392
+msgid "Adding NVDA configuration file..."
+msgstr "Додавання файлу налаштувань NVDA..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:399
+#: addon\globalPlugins\addonsTools\utilities.py:401
+msgid "Was not possible to add NVDA configuration file to the backup file.."
+msgstr "Не вдалося додати файл налаштувань NVDA до файлу резервної копії."
+
+#: addon\globalPlugins\addonsTools\utilities.py:414
+#, python-brace-format
+msgid ""
+"Correctly created backup file at:\n"
+"{}"
+msgstr ""
+"Файл резевної копії успішно створено:\n"
+"{}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:424
+#: addon\globalPlugins\addonsTools\utilities.py:565
+#: addon\globalPlugins\addonsTools\utilities.py:573
+#, python-brace-format
+msgid ""
+"The following error have Occurred:\n"
+"{}"
+msgstr ""
+"Трапилась помилка:\n"
+"{}"
+
+#: addon\globalPlugins\addonsTools\utilities.py:425
+#: addon\globalPlugins\addonsTools\utilities.py:431
+msgid "Was not possible to create the backup file"
+msgstr "Не вдалося створити файл резервної копії"
+
+#: addon\globalPlugins\addonsTools\utilities.py:430
+#: addon\globalPlugins\addonsTools\utilities.py:580
+#: addon\globalPlugins\addonsTools\utilities.py:588
+#, python-brace-format
+msgid ""
+"The following errors have Occurred:\n"
+"{}"
+msgstr ""
+"Трапились такі помилки:\n"
+"{}"
+
+#. Dictionary
+#: addon\globalPlugins\addonsTools\utilities.py:453
+msgid "Restoring dictionary folder..."
+msgstr "Відновлення папки словника..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:462
+#: addon\globalPlugins\addonsTools\utilities.py:464
+msgid "Was not possible to restore the dictionaries folder."
+msgstr "Не вдалося відновити папку словників."
+
+#. Profiles
+#: addon\globalPlugins\addonsTools\utilities.py:466
+msgid "Restoring profiles folder..."
+msgstr "Відновлення папки профілів..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:475
+#: addon\globalPlugins\addonsTools\utilities.py:477
+msgid "Was not possible to restore the profiles folder."
+msgstr "Не вдалося відновити папку профілів."
+
+#. Scratchpad
+#: addon\globalPlugins\addonsTools\utilities.py:479
+msgid "Restoring Scratchpad folder..."
+msgstr "Відновлення папки Scratchpad..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:488
+#: addon\globalPlugins\addonsTools\utilities.py:490
+msgid "Was not possible to restore the Scratchpad folder."
+msgstr "Не вдалося відновити папку Scratchpad."
+
+#. profiles triggers file
+#: addon\globalPlugins\addonsTools\utilities.py:492
+msgid "Restoring profiles triggers file..."
+msgstr "Відновлення файлу автозапуску профілів..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:506
+#: addon\globalPlugins\addonsTools\utilities.py:508
+#: addon\globalPlugins\addonsTools\utilities.py:510
+msgid "Was not possible to restore the profiles triggers file."
+msgstr "Не вдалося відновити  файл автозапуску профілів."
+
+#. File gestures.ini
+#: addon\globalPlugins\addonsTools\utilities.py:512
+msgid "Restoring gestures file..."
+msgstr "Відновлення файлу жестів..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:526
+#: addon\globalPlugins\addonsTools\utilities.py:528
+#: addon\globalPlugins\addonsTools\utilities.py:530
+msgid "Was not possible to restore the gestures file."
+msgstr "Не вдалося відновити файл жестів."
+
+#. NVDA configuration file
+#: addon\globalPlugins\addonsTools\utilities.py:532
+msgid "Restoring NVDA configuration file..."
+msgstr "Відновлення файлу налаштувань NVDA..."
+
+#: addon\globalPlugins\addonsTools\utilities.py:546
+#: addon\globalPlugins\addonsTools\utilities.py:548
+#: addon\globalPlugins\addonsTools\utilities.py:550
+msgid "Was not possible to restore the NVDA configuration file."
+msgstr "Не вдалося відновити файлу налаштувань NVDA."
+
+#: addon\globalPlugins\addonsTools\utilities.py:557
+msgid "The restore process was completed successfully."
+msgstr "Процес відновлення завершено успішно."
+
+#: addon\globalPlugins\addonsTools\utilities.py:566
+#: addon\globalPlugins\addonsTools\utilities.py:581
+msgid "Was not possible to restore all the backup"
+msgstr "Не вдалося відновити всю резервну копію"
+
+#: addon\globalPlugins\addonsTools\utilities.py:567
+#: addon\globalPlugins\addonsTools\utilities.py:582
+msgid "However some elements were restored"
+msgstr "Однак деякі елементи відновлено"
+
+#: addon\globalPlugins\addonsTools\utilities.py:574
+#: addon\globalPlugins\addonsTools\utilities.py:589
+msgid "Was not possible to restore NVDA"
+msgstr "Не вдалося відновити NVDA"
+
+#: addon\globalPlugins\addonsTools\utilities.py:575
+#: addon\globalPlugins\addonsTools\utilities.py:590
+msgid "Press 'Accept' or 'Close' to continue."
+msgstr "Натисніть «Прийняти» або «Закрити», щоб продовжити."
+
+#: addon\globalPlugins\addonsTools\__init__.py:42
+msgid "&Add-ons tools"
+msgstr "Інструменти &додатків"
+
+#: addon\globalPlugins\addonsTools\__init__.py:59
+msgid "An action is pending a NVDA restart."
+msgstr "Дія очікує перезапуску NVDA."
+
+#: addon\globalPlugins\addonsTools\__init__.py:60
+msgid "By security reasons, the add-on only can be used after restarting NVDA"
+msgstr ""
+"З міркувань безпеки, додаток можна використовувати тільки після перезапуску "
+"NVDA"
+
+#: addon\globalPlugins\addonsTools\__init__.py:61
+msgid "Do you want to restart NVDA now?"
+msgstr "Бажаєте перезапустити NVDA зараз?"
+
+#: addon\globalPlugins\addonsTools\__init__.py:62
+msgid "Question"
+msgstr "Запитання"
+
+#: addon\globalPlugins\addonsTools\__init__.py:74
+msgid "Shows Add-ons tools main window"
+msgstr "Показати головний діалог інструментів додатків"
+
+#: addon\globalPlugins\addonsTools\__init__.py:85
+#: addon\globalPlugins\addonsTools\__init__.py:87
+msgid "Already exist an instance of Add-ons Tools open."
+msgstr "Вже існує відкритий екземпляр інструментів додатків."
+
+#: addon\globalPlugins\addonsTools\__init__.py:94
+msgid "Close NVDA when it gets blocked"
+msgstr "Закрити NVDA у разі блокування"
+
 #. Translators: Message asking user to remove an old add-on.
-#: addon/installTasks.py:19
+#: addon\installTasks.py:19
+#, python-brace-format
 msgid ""
 "You have installed a version of the {} add-on.\n"
 "As its functionalities are replaced by this add-on and by add-ons store, we "
@@ -32,567 +590,20 @@ msgstr ""
 "настійно рекомендуємо вам видалити або, принаймні, вимкнути його!"
 
 #. Translators: Label of a message asking user to remove an old add-on.
-#: addon/installTasks.py:21
+#: addon\installTasks.py:21
 msgid "Warning!"
 msgstr "Попередження!"
 
-#: addon/globalPlugins/addonsTools/__init__.py:42
-msgid "&Add-ons tools"
-msgstr "Інструменти &додатків"
-
-#: addon/globalPlugins/addonsTools/__init__.py:59
-msgid "An action is pending a NVDA restart."
-msgstr "Дія очікує перезапуску NVDA."
-
-#: addon/globalPlugins/addonsTools/__init__.py:60
-msgid "By security reasons, the add-on only can be used after restarting NVDA"
-msgstr ""
-"З міркувань безпеки, додаток можна використовувати тільки після перезапуску "
-"NVDA"
-
-#: addon/globalPlugins/addonsTools/__init__.py:61
-msgid "Do you want to restart NVDA now?"
-msgstr "Бажаєте перезапустити NVDA зараз?"
-
-#: addon/globalPlugins/addonsTools/__init__.py:62
-msgid "Question"
-msgstr "Запитання"
-
-#: addon/globalPlugins/addonsTools/__init__.py:74
-msgid "Shows Add-ons tools main window"
-msgstr "Показати головне вікно інструментів додатків"
-
-#: addon/globalPlugins/addonsTools/__init__.py:75
-#: addon/globalPlugins/addonsTools/__init__.py:95
-#: addon/globalPlugins/addonsTools/main.py:32
-msgid "Add-ons tools"
-msgstr "Інструменти додатків"
-
-#: addon/globalPlugins/addonsTools/__init__.py:85
-#: addon/globalPlugins/addonsTools/__init__.py:87
-msgid "Already exist an instance of Add-ons Tools open."
-msgstr "Вже існує відкритий екземпляр інструментів додатків."
-
-#: addon/globalPlugins/addonsTools/__init__.py:85
-#: addon/globalPlugins/addonsTools/main.py:286
-msgid "Information"
-msgstr "Інформація"
-
-#: addon/globalPlugins/addonsTools/__init__.py:94
-msgid "Close NVDA when it gets blocked"
-msgstr "Закрити NVDA у разі блокування"
-
-#. Translators: StaticText with instructions for the user:
-#: addon/globalPlugins/addonsTools/main.py:47
-msgid "Choose an tool and press Tab to access the options."
-msgstr "Виберіть інструмент і натисніть клавішу Tab, щоб перейти до опцій."
-
-#: addon/globalPlugins/addonsTools/main.py:54
-msgid "Add-ons packager"
-msgstr "Пакувальник додатків"
-
-#: addon/globalPlugins/addonsTools/main.py:58
-#: addon/globalPlugins/addonsTools/main.py:81
-#: addon/globalPlugins/addonsTools/main.py:121
-msgid "&Add-ons list:"
-msgstr "&Список додатків:"
-
-#: addon/globalPlugins/addonsTools/main.py:67
-#: addon/globalPlugins/addonsTools/main.py:90
-msgid "&Selection"
-msgstr "&Вибрати"
-
-#: addon/globalPlugins/addonsTools/main.py:70
-msgid "&Generate"
-msgstr "&Згенерувати"
-
-#: addon/globalPlugins/addonsTools/main.py:74
-msgid "Multiple installer"
-msgstr "Масова інсталяція"
-
-#: addon/globalPlugins/addonsTools/main.py:78
-msgid "&Select a folder with add-ons to install..."
-msgstr "&Оберіть теку з додатками для встановлення..."
-
-#: addon/globalPlugins/addonsTools/main.py:93
-msgid "&Install"
-msgstr "&Встановити"
-
-#: addon/globalPlugins/addonsTools/main.py:97
-msgid "Make/restore Backups"
-msgstr "Створення/Відновлення резервних копій"
-
-#: addon/globalPlugins/addonsTools/main.py:101
-msgid "&Backup elements:"
-msgstr "&Елементи резервної копії:"
-
-#: addon/globalPlugins/addonsTools/main.py:110
-msgid "&Create a backup"
-msgstr "&Створити резервну копію"
-
-#: addon/globalPlugins/addonsTools/main.py:113
-msgid "&Restore backup"
-msgstr "&Відновити з резевної копії"
-
-#: addon/globalPlugins/addonsTools/main.py:117
-msgid "Add-ons documentation"
-msgstr "Документація додатків"
-
-#: addon/globalPlugins/addonsTools/main.py:127
-msgid "&Open add-on documentation"
-msgstr "&Відкрити документацію додатка"
-
-#: addon/globalPlugins/addonsTools/main.py:133
-msgid "&Status:"
-msgstr "&Статус:"
-
-#: addon/globalPlugins/addonsTools/main.py:145
-msgid "&Accept"
-msgstr "&Прийняти"
-
-#: addon/globalPlugins/addonsTools/main.py:148
-msgid "&Cancel"
-msgstr "&Скасувати"
-
-#: addon/globalPlugins/addonsTools/main.py:151
-msgid "Close"
-msgstr "Закрити"
-
-#: addon/globalPlugins/addonsTools/main.py:195
-#: addon/globalPlugins/addonsTools/main.py:398
-#: addon/globalPlugins/addonsTools/main.py:441
-#: addon/globalPlugins/addonsTools/main.py:593
-msgid "Dictionaries folder"
-msgstr "Тека словників"
-
-#: addon/globalPlugins/addonsTools/main.py:199
-#: addon/globalPlugins/addonsTools/main.py:402
-#: addon/globalPlugins/addonsTools/main.py:445
-#: addon/globalPlugins/addonsTools/main.py:595
-msgid "Profiles folder"
-msgstr "Тека профілів"
-
-#: addon/globalPlugins/addonsTools/main.py:203
-#: addon/globalPlugins/addonsTools/main.py:406
-#: addon/globalPlugins/addonsTools/main.py:449
-#: addon/globalPlugins/addonsTools/main.py:597
-msgid "Scratchpad folder"
-msgstr "Тека Scratchpad"
-
-#: addon/globalPlugins/addonsTools/main.py:206
-#: addon/globalPlugins/addonsTools/main.py:409
-#: addon/globalPlugins/addonsTools/main.py:452
-#: addon/globalPlugins/addonsTools/main.py:599
-msgid "Profiles triggers file"
-msgstr "Файл автозапуску профілів"
-
-#: addon/globalPlugins/addonsTools/main.py:209
-#: addon/globalPlugins/addonsTools/main.py:412
-#: addon/globalPlugins/addonsTools/main.py:455
-#: addon/globalPlugins/addonsTools/main.py:601
-msgid "Gestures file"
-msgstr "Файл жестів"
-
-#: addon/globalPlugins/addonsTools/main.py:212
-#: addon/globalPlugins/addonsTools/main.py:415
-#: addon/globalPlugins/addonsTools/main.py:458
-#: addon/globalPlugins/addonsTools/main.py:603
-msgid "NVDA configurations file"
-msgstr "Файл налаштувань NVDA"
-
-#: addon/globalPlugins/addonsTools/main.py:256
-#: addon/globalPlugins/addonsTools/main.py:301
-msgid "&Select all"
-msgstr "Обрати &все"
-
-#: addon/globalPlugins/addonsTools/main.py:257
-#: addon/globalPlugins/addonsTools/main.py:302
-msgid "&Unselect all"
-msgstr "&Відмінити вибір"
-
-#: addon/globalPlugins/addonsTools/main.py:263
-#: addon/globalPlugins/addonsTools/main.py:308
-msgid "You need to select at least one add-on to continue."
-msgstr "Щоб продовжити, потрібно вибрати хоча б один додаток."
-
-#: addon/globalPlugins/addonsTools/main.py:263
-#: addon/globalPlugins/addonsTools/main.py:308
-#: addon/globalPlugins/addonsTools/main.py:323
-#: addon/globalPlugins/addonsTools/main.py:610
-msgid "Error"
-msgstr "Помилка"
-
-#. Button select folder with add-ons to install.
-#: addon/globalPlugins/addonsTools/main.py:266
-#: addon/globalPlugins/addonsTools/main.py:280
-msgid "Select a folder:"
-msgstr "Обрати теку:"
-
-#: addon/globalPlugins/addonsTools/main.py:286
-msgid "No add-ons found on selected folder."
-msgstr "У обраній теці не знайдено додатків."
-
-#: addon/globalPlugins/addonsTools/main.py:323
-#: addon/globalPlugins/addonsTools/main.py:610
-msgid ""
-"You need to select at least one backup element from the list to continue."
-msgstr ""
-"Щоб продовжити, потрібно вибрати принаймні один елемент резервної копії зі "
-"списку."
-
-#. Button restore backup
-#: addon/globalPlugins/addonsTools/main.py:329
-#: addon/globalPlugins/addonsTools/main.py:345
-msgid "NVDA backup file (*.nvda-backup)|*.nvda-backup"
-msgstr "Файл резервної копії NVDA (*.nvda-backup)|*.nvda-backup"
-
-#: addon/globalPlugins/addonsTools/main.py:330
-msgid "Save backup in..."
-msgstr "Зберегти резервну копію в..."
-
-#: addon/globalPlugins/addonsTools/main.py:346
-msgid "Select a NVDA backup file"
-msgstr "Оберіть файл резервної копії NVDA"
-
-#: addon/globalPlugins/addonsTools/main.py:419
-#: addon/globalPlugins/addonsTools/main.py:463
-#: addon/globalPlugins/addonsTools/main.py:472
-#: addon/globalPlugins/addonsTools/main.py:513
-#: addon/globalPlugins/addonsTools/main.py:528
-#: addon/globalPlugins/addonsTools/utilities.py:560
-#: addon/globalPlugins/addonsTools/utilities.py:570
-#: addon/globalPlugins/addonsTools/utilities.py:585
-msgid "restart"
-msgstr "перезапустити"
-
-#: addon/globalPlugins/addonsTools/main.py:554
-msgid "Restore NVDA backup"
-msgstr "Відновити резервну копію NVDA"
-
-#: addon/globalPlugins/addonsTools/main.py:560
-msgid "Backup &content:"
-msgstr "&Вміст резевної копії:"
-
-#: addon/globalPlugins/addonsTools/main.py:569
-msgid "&Restore"
-msgstr "&Відновити"
-
-#: addon/globalPlugins/addonsTools/main.py:572
-msgid "&Close"
-msgstr "&Закрити"
-
-#: addon/globalPlugins/addonsTools/utilities.py:164
-msgid "Creating the add-on: {} {}"
-msgstr "Створення додатка: {} {}"
-
-#: addon/globalPlugins/addonsTools/utilities.py:168
-msgid "All add-ons were generated correctly."
-msgstr "Всі додатки успішно згенеровано."
-
-#: addon/globalPlugins/addonsTools/utilities.py:169
-#: addon/globalPlugins/addonsTools/utilities.py:317
-#: addon/globalPlugins/addonsTools/utilities.py:322
-#: addon/globalPlugins/addonsTools/utilities.py:415
-#: addon/globalPlugins/addonsTools/utilities.py:426
-#: addon/globalPlugins/addonsTools/utilities.py:432
-msgid "Press 'Accept' to continue."
-msgstr "Натисніть 'Прийняти' щоб продовжити."
-
-#: addon/globalPlugins/addonsTools/utilities.py:174
-#: addon/globalPlugins/addonsTools/utilities.py:249
-#: addon/globalPlugins/addonsTools/utilities.py:257
-msgid "Occurred an unexpected error."
-msgstr "Трапилась не очікувана помилка."
-
-#: addon/globalPlugins/addonsTools/utilities.py:175
-#: addon/globalPlugins/addonsTools/utilities.py:250
-#: addon/globalPlugins/addonsTools/utilities.py:258
-msgid "Error: {}"
-msgstr "Помилка: {}"
-
-#: addon/globalPlugins/addonsTools/utilities.py:176
-#: addon/globalPlugins/addonsTools/utilities.py:251
-msgid "Please try again."
-msgstr "Будь ласка, спробуйте ще раз."
-
-#: addon/globalPlugins/addonsTools/utilities.py:196
-msgid "Installing the add-on: {}"
-msgstr "Встановлення додатка: {} {}"
-
-#: addon/globalPlugins/addonsTools/utilities.py:219
-msgid "Instalation correctly completed."
-msgstr "Встановлення успішно завершено."
-
-#: addon/globalPlugins/addonsTools/utilities.py:220
-#: addon/globalPlugins/addonsTools/utilities.py:241
-#: addon/globalPlugins/addonsTools/utilities.py:260
-#: addon/globalPlugins/addonsTools/utilities.py:558
-#: addon/globalPlugins/addonsTools/utilities.py:568
-#: addon/globalPlugins/addonsTools/utilities.py:583
-msgid "NVDA needs to restart to make changes available."
-msgstr "NVDA потрібно перезапустити, щоб зміни набули чинності."
-
-#: addon/globalPlugins/addonsTools/utilities.py:221
-#: addon/globalPlugins/addonsTools/utilities.py:242
-#: addon/globalPlugins/addonsTools/utilities.py:261
-#: addon/globalPlugins/addonsTools/utilities.py:559
-#: addon/globalPlugins/addonsTools/utilities.py:569
-#: addon/globalPlugins/addonsTools/utilities.py:584
-msgid "Press 'Accept' to restart."
-msgstr "Натисніть 'Прийняти' щоб перезапустити."
-
-#: addon/globalPlugins/addonsTools/utilities.py:228
-msgid "Was not possible to install the add-on."
-msgstr "Не вдалося встановити додаток."
-
-#: addon/globalPlugins/addonsTools/utilities.py:229
-msgid "Compatibility error."
-msgstr "Помилка сумісності."
-
-#: addon/globalPlugins/addonsTools/utilities.py:230
-msgid "Search for a compatible add-on"
-msgstr "Пошук сумісного додатка"
-
-#: addon/globalPlugins/addonsTools/utilities.py:238
-msgid "Instalation completed correctly."
-msgstr "Встановлення завершено успішно."
-
-#: addon/globalPlugins/addonsTools/utilities.py:239
-msgid "However some add-ons were not possible to be installed."
-msgstr "Однак деякі додатки не вдалося встановити."
-
-#: addon/globalPlugins/addonsTools/utilities.py:240
-msgid ""
-"The following add-ons are incompatibles, search for a compatible version:\n"
-"{}"
-msgstr ""
-"Наступні додатки несумісні, знайдіть сумісну версію:\n"
-"{}"
-
-#: addon/globalPlugins/addonsTools/utilities.py:259
-msgid "However some add-ons were installed."
-msgstr "Однак деякі додатки були встановлені."
-
-#: addon/globalPlugins/addonsTools/utilities.py:305
-msgid "Searching add-ons in {}..."
-msgstr "Пошук додатків у {}..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:309
-msgid "No compatible add-ons on directory."
-msgstr "У теці немає сумісних додатків."
-
-#: addon/globalPlugins/addonsTools/utilities.py:313
-#: addon/globalPlugins/addonsTools/utilities.py:321
-msgid "Add-on information extraction completed successfully."
-msgstr "Видобування інформації про додаток успішно завершено."
-
-#: addon/globalPlugins/addonsTools/utilities.py:314
-msgid "However, the folder contains incompatible add-ons."
-msgstr "Однак тека містить несумісні додатки."
-
-#: addon/globalPlugins/addonsTools/utilities.py:315
-msgid ""
-"* Add-ons with errors in manifest: {}'\n"
-"'{}"
-msgstr ""
-"* Додатки з помилками в маніфесті: {}'\n"
-"'{}"
-
-#: addon/globalPlugins/addonsTools/utilities.py:316
-msgid ""
-"* Add-ons not compatible with current API: {}.'\n"
-"'{}"
-msgstr ""
-"* Додатки, несумісні з поточним API: {}.'\n"
-"'{}"
-
-#. Dictionary
-#: addon/globalPlugins/addonsTools/utilities.py:345
-msgid "Adding dictionaries folder..."
-msgstr "Додавання теки словників..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:351
-msgid "Was not possible to add dictionaries folder to the backup file."
-msgstr "Не вдалося додати теку словників до файлу резервної копії."
-
-#. Profiles
-#: addon/globalPlugins/addonsTools/utilities.py:353
-msgid "Adding profiles folder..."
-msgstr "Додавання тек профілів..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:359
-msgid "Was not possible to add profiles folder to the backup file."
-msgstr "Не вдалося додати теку профілів до файлу резервної копії."
-
-#. Scratchpad
-#: addon/globalPlugins/addonsTools/utilities.py:361
-msgid "Adding Scratchpad folder..."
-msgstr "Додавання теки Scratchpad..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:367
-msgid "Was not possible to add Scratchpad folder to the backup file."
-msgstr "Не вдалося додати теку Scratchpad до файлу резервної копії."
-
-#. Profiles triggers file
-#: addon/globalPlugins/addonsTools/utilities.py:370
-msgid "Adding profiles triggers file..."
-msgstr "Не вдалося додати файл автозапуску профілів до файлу резервної копії."
-
-#: addon/globalPlugins/addonsTools/utilities.py:377
-#: addon/globalPlugins/addonsTools/utilities.py:379
-msgid "Was not possible to add profiles triggers file to the backup file."
-msgstr "Не вдалося додати файл автозапуску профілів до файлу резервної копії."
-
-#. File gestures.ini
-#: addon/globalPlugins/addonsTools/utilities.py:381
-msgid "Adding gestures file..."
-msgstr "Додавання файлу жестів..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:388
-#: addon/globalPlugins/addonsTools/utilities.py:390
-msgid "Was not possible to add gestures file to the backup file.."
-msgstr "Не вдалося додати файл жестів до файлу резервної копії."
-
-#. NVDA configuration file
-#: addon/globalPlugins/addonsTools/utilities.py:392
-msgid "Adding NVDA configuration file..."
-msgstr "Додавання файлу налаштувань NVDA..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:399
-#: addon/globalPlugins/addonsTools/utilities.py:401
-msgid "Was not possible to add NVDA configuration file to the backup file.."
-msgstr "Не вдалося додати файл налаштувань NVDA до файлу резервної копії."
-
-#: addon/globalPlugins/addonsTools/utilities.py:414
-msgid ""
-"Correctly created backup file at:\n"
-"{}"
-msgstr ""
-"Файл резевної копії успішно створено:\n"
-"{}"
-
-#: addon/globalPlugins/addonsTools/utilities.py:424
-#: addon/globalPlugins/addonsTools/utilities.py:565
-#: addon/globalPlugins/addonsTools/utilities.py:573
-msgid ""
-"The following error have Occurred:\n"
-"{}"
-msgstr ""
-"Трапилась помилка:\n"
-"{}"
-
-#: addon/globalPlugins/addonsTools/utilities.py:425
-#: addon/globalPlugins/addonsTools/utilities.py:431
-msgid "Was not possible to create the backup file"
-msgstr "Не вдалося створити файл резервної копії"
-
-#: addon/globalPlugins/addonsTools/utilities.py:430
-#: addon/globalPlugins/addonsTools/utilities.py:580
-#: addon/globalPlugins/addonsTools/utilities.py:588
-msgid ""
-"The following errors have Occurred:\n"
-"{}"
-msgstr ""
-"Трапились такі помилки:\n"
-"{}"
-
-#. Dictionary
-#: addon/globalPlugins/addonsTools/utilities.py:453
-msgid "Restoring dictionary folder..."
-msgstr "Відновлення теки словника..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:462
-#: addon/globalPlugins/addonsTools/utilities.py:464
-msgid "Was not possible to restore the dictionaries folder."
-msgstr "Не вдалося відновити теку словників."
-
-#. Profiles
-#: addon/globalPlugins/addonsTools/utilities.py:466
-msgid "Restoring profiles folder..."
-msgstr "Відновлення таки профілів..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:475
-#: addon/globalPlugins/addonsTools/utilities.py:477
-msgid "Was not possible to restore the profiles folder."
-msgstr "Не вдалося відновити теку профілів."
-
-#. Scratchpad
-#: addon/globalPlugins/addonsTools/utilities.py:479
-msgid "Restoring Scratchpad folder..."
-msgstr "Відновлення теки Scratchpad..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:488
-#: addon/globalPlugins/addonsTools/utilities.py:490
-msgid "Was not possible to restore the Scratchpad folder."
-msgstr "Не вдалося відновити теку Scratchpad."
-
-#. profiles triggers file
-#: addon/globalPlugins/addonsTools/utilities.py:492
-msgid "Restoring profiles triggers file..."
-msgstr "Відновлення файлу автозапуску профілів..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:506
-#: addon/globalPlugins/addonsTools/utilities.py:508
-#: addon/globalPlugins/addonsTools/utilities.py:510
-msgid "Was not possible to restore the profiles triggers file."
-msgstr "Не вдалося відновити  файл автозапуску профілів."
-
-#. File gestures.ini
-#: addon/globalPlugins/addonsTools/utilities.py:512
-msgid "Restoring gestures file..."
-msgstr "Відновлення файлу жестів..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:526
-#: addon/globalPlugins/addonsTools/utilities.py:528
-#: addon/globalPlugins/addonsTools/utilities.py:530
-msgid "Was not possible to restore the gestures file."
-msgstr "Не вдалося відновити файл жестів."
-
-#. NVDA configuration file
-#: addon/globalPlugins/addonsTools/utilities.py:532
-msgid "Restoring NVDA configuration file..."
-msgstr "Відновлення файлу налаштувань NVDA..."
-
-#: addon/globalPlugins/addonsTools/utilities.py:546
-#: addon/globalPlugins/addonsTools/utilities.py:548
-#: addon/globalPlugins/addonsTools/utilities.py:550
-msgid "Was not possible to restore the NVDA configuration file."
-msgstr "Не вдалося відновити файлу налаштувань NVDA."
-
-#: addon/globalPlugins/addonsTools/utilities.py:557
-msgid "The restore process was completed successfully."
-msgstr "Процес відновлення завершено успішно."
-
-#: addon/globalPlugins/addonsTools/utilities.py:566
-#: addon/globalPlugins/addonsTools/utilities.py:581
-msgid "Was not possible to restore all the backup"
-msgstr "Не вдалося відновити всю резервну копію"
-
-#: addon/globalPlugins/addonsTools/utilities.py:567
-#: addon/globalPlugins/addonsTools/utilities.py:582
-msgid "However some elements were restored"
-msgstr "Однак деякі елементи відновлено"
-
-#: addon/globalPlugins/addonsTools/utilities.py:574
-#: addon/globalPlugins/addonsTools/utilities.py:589
-msgid "Was not possible to restore NVDA"
-msgstr "Не вдалося відновити NVDA"
-
-#: addon/globalPlugins/addonsTools/utilities.py:575
-#: addon/globalPlugins/addonsTools/utilities.py:590
-msgid "Press 'Accept' or 'Close' to continue."
-msgstr "Натисніть «Прийняти» або «Закрити», щоб продовжити."
-
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information found in Add-ons Manager.
-#: buildVars.py:23
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:21
 msgid "Tools for managing add-ons"
 msgstr "Інструменти для управління додатками"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:26
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid ""
 "Set of tools to manage add-ons not available on NVDA add-ons store:\n"
 "\t* Add-on packager: To create a add-on backup file or to send a modified "
@@ -601,8 +612,7 @@ msgid ""
 "all at once;\n"
 "\t* Make/restore Backups: Allow to backup and restore some NVDA preferences, "
 "such as configurations, profiles and dictionaries;\n"
-"\t* Add-ons documentation: allow to open the documentation file.\n"
-"\t"
+"\t* Add-ons documentation: allow to open the documentation file."
 msgstr ""
 "Набір інструментів для управління додатками, які не доступні в магазині "
 "додатків NVDA:\n"
@@ -614,8 +624,17 @@ msgstr ""
 "\t* Створення/відновлення резервних копій: дозволяє створювати резервні "
 "копії та відновлювати деякі налаштування NVDA, такі як конфігурації, профілі "
 "та словники;\n"
-"\t* Документація додатків: дозволяє відкрити файл документації.\n"
-"\t"
+"\t* Документація додатків: дозволяє відкрити файл документації."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:33
+msgid ""
+"Set compatibility wit NVDA 2026.x.\n"
+"\tUpdated translations for russian and ucranian."
+msgstr ""
+"Сумісність з NVDA 2026.x.\n"
+"\tОновлені переклади російською та українською мовами."
 
 #~ msgid "Utilidades para los complementos de NVDA"
 #~ msgstr "Інструменти для додатків NVDA"
